@@ -130,7 +130,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [AmadeusGB/alpha-arena](https://github.com/AmadeusGB/alpha-arena) - Live AI-agent competition and research platform; uses real-market conditions to improve agents.
 - [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) - PanWatch / "盯盘侠"; AI-driven stock-monitoring assistant; multi-account positions + agent analysis + PWA mobile.
 - [rnikitin/QuantGPT](https://github.com/rnikitin/QuantGPT) - AI co-pilot for quant traders and researchers; early project from 2023, still maintained.
-- [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - DeepEar / "顺风耳"; HKUST-Dial Lab's open-source deep-research and signal-tracking framework; joint multimodal news + price tracking.
+- [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - DeepEar / "顺风耳"; HKUSTDial's open-source deep-research and signal-tracking framework; joint multimodal news + price tracking.
 - [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) - Earnings-call / SEC-filing / news Q&A agent; clean RAG-over-disclosures implementation.
 
 > Also relevant: [ginlix-ai/LangAlpha](#agents-langalpha) and [oficcejo/aiagents-stock](#agents-tradingagents) both include research-copilot screens, but their main entries stay with the multi-agent systems they belong to.
@@ -305,7 +305,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research team, arXiv 2412.20138 (2024). Introduces the multi-agent debate decision framework: analyst team + bull/bear researcher debate + trader + risk control + portfolio manager. [paper](https://arxiv.org/abs/2412.20138) · [code](#agents-tradingagents)
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One, 2025; ships with a 40-page evaluation paper. Forward-only audit of ChatGPT managing a real US-equity micro-cap portfolio for six months under strict pre-defined rules. [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation, arXiv 2405.14767 (2024). Early academic finance-AI agent platform; multimodal analyst agents tied to the FinGPT model line. [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
-- [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUST-Dial Lab, arXiv 2505.11065 (2025). Multi-agent fund-investment benchmark with LLM analysts and a trading arena leaderboard. [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
+- [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUSTDial, arXiv 2505.11065 (2025). Multi-agent fund-investment benchmark with LLM analysts and a trading arena leaderboard. [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
 
 > For broader finance-LLM papers, models, and datasets, see [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs). This list stays focused on usable agent, MCP, and Skill projects.
 
