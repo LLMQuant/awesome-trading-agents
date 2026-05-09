@@ -9,7 +9,7 @@ assignees: []
 <!--
 Thanks for proposing an entry. Please fill out every field below.
 For the quality bar and full submission rules, see CONTRIBUTING.md.
-感谢提议。请填写以下字段。完整提交规则见 CONTRIBUTING.md。
+感谢提议。请填写以下字段。中文提交规则见 CONTRIBUTING.zh-CN.md。
 -->
 
 ## 1. Repo URL · 仓库链接
@@ -53,7 +53,7 @@ Put dates and stars in §4 metadata instead.
 
 <!--
 Six boxes. Tick what applies; if any is unchecked, justify in §7.
-See CONTRIBUTING.md §2 for full criteria.
+See CONTRIBUTING.md §2 / CONTRIBUTING.zh-CN.md §2 for full criteria.
 -->
 
 - [ ] **Open source** or has a public technical artifact (paper,
@@ -90,9 +90,6 @@ should be mentioned in prose.
 
 <!-- Optional: novel aspect, distinguishing features, related entries. -->
 
-
-
----
 
 By filing this issue you confirm that, if accepted, your contribution
 to the list's text will be released under [CC0-1.0](../../LICENSE).

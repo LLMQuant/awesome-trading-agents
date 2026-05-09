@@ -29,8 +29,6 @@ Awesome Trading Agents collects open-source projects where LLMs help research ma
 > [!NOTE]
 > Dates are not shown after every item. We still check recent activity before adding or updating a project; the README only keeps details that help readers choose a project, such as official status, forks, or useful pairings.
 
----
-
 <!--lint disable awesome-toc-->
 ## Contents
 
@@ -60,8 +58,6 @@ Awesome Trading Agents collects open-source projects where LLMs help research ma
 - [Related awesome lists](#related-awesome-lists)
 
 <!--lint enable awesome-toc-->
-
----
 
 <a id="agents"></a>
 ## Agents
@@ -174,8 +170,6 @@ Agents are projects where an LLM is part of the actual research or trading decis
 
 > Note: [`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) is not listed yet because its terminal has not launched. It can be added once the project is publicly usable.
 
----
-
 <a id="mcps"></a>
 ## MCPs
 
@@ -255,8 +249,6 @@ MCPs are servers that let an agent call external tools through the Model Context
 
 - [whchien/ai-trader](https://github.com/whchien/ai-trader) - Backtrader-based framework with 20+ strategies, multi-market support, CLI tools, and an embedded MCP for agent workflows.
 
----
-
 <a id="skills"></a>
 ## Skills
 
@@ -300,8 +292,6 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 
 > Also useful here: [krakenfx/kraken-cli](#mcps-kraken-cli) includes SKILL.md packages for crypto, xStocks, forex, and derivatives. The full entry is under MCPs because Kraken CLI is mainly an exchange trading tool.
 
----
-
 <a id="resources"></a>
 ## Resources
 
@@ -329,7 +319,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="contributing"></a>
 ## Contributing
 
-We welcome community contributions: new entries, removal of dead links, and discussion on sub-category boundaries. Start with [CONTRIBUTING.md](CONTRIBUTING.md) — the quality bar, submission format, and bilingual-PR 7-day SLA all live there. New entries are smoothest via the [Issue: add entry](.github/ISSUE_TEMPLATE/add-entry.md) template; removals via the [Issue: remove entry](.github/ISSUE_TEMPLATE/remove-entry.md) template.
+We welcome community contributions: new entries, removal of dead links, and discussion on sub-category boundaries. Start with [CONTRIBUTING.md](CONTRIBUTING.md) (or [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) in Chinese); the guide puts the AI-native review path, quality bar, submission format, `awesome-lint` check, and bilingual-PR rule in one place. New entries are smoothest via the [Issue: add entry](.github/ISSUE_TEMPLATE/add-entry.md) template; removals via the [Issue: remove entry](.github/ISSUE_TEMPLATE/remove-entry.md) template.
 
 <a id="related-awesome-lists"></a>
 ## Related awesome lists

@@ -78,7 +78,7 @@ Any restructure that lands MUST update both README.md and
 README.zh-CN.md atomically (en + zh sub-category labels, anchor
 IDs, TOC counts, sub-category intro paragraphs). The bilingual-PR
 rule is non-negotiable for restructures — restructures cannot use
-the 7-day SLA exception path. See CONTRIBUTING.md §6.
+the 7-day SLA exception path. See CONTRIBUTING.md §6 / CONTRIBUTING.zh-CN.md §6.
 重构落地必须 README.md 与 README.zh-CN.md 原子化同步更新（en/zh
 标签、锚 ID、TOC 计数、子类介绍段）。重构 PR 不适用 7 天 SLA
 例外路径。

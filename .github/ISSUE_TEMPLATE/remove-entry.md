@@ -22,7 +22,7 @@ instead.
 
 ## 2. Removal reason · 移除原因
 
-<!-- Tick all that apply. See CONTRIBUTING.md §5 for the full criteria. -->
+<!-- Tick all that apply. See CONTRIBUTING.md §5 / CONTRIBUTING.zh-CN.md §5 for the full criteria. -->
 
 - [ ] Repo deleted or archived for >12 months without a clear successor.
 - [ ] License changed in a way that contradicts CC0-1.0 reusability
@@ -57,7 +57,7 @@ URL with a fetch error, etc. Maintainers re-verify before merging.
 <!--
 Whoever lands the change in a PR must edit BOTH README.md and
 README.zh-CN.md, OR open a tracked translation issue with a 7-day
-SLA. See CONTRIBUTING.md §6.
+SLA. See CONTRIBUTING.md §6 / CONTRIBUTING.zh-CN.md §6.
 落地此变更的 PR 须同步改两份 README，或开 7 天 SLA 翻译跟踪 issue。
 -->
 

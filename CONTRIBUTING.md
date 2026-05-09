@@ -1,337 +1,201 @@
-# Contributing · 贡献指南
+# Contributing
 
-Thank you for considering a contribution to **awesome-trading-agents** —
-the awesome list for the LLM-driven trading paradigm (Agents · MCPs ·
-Skills). This document spells out the quality bar, the submission
-format, and the bilingual-PR rule so your PR lands quickly.
+<p><strong>English</strong> · <a href="CONTRIBUTING.zh-CN.md">简体中文</a></p>
 
-感谢你为 **awesome-trading-agents** 做贡献。本仓库专注 LLM 驱动的
-交易范式，三大支柱并列收录：Agents · MCPs · Skills。本文档说明
-质量门槛、提交格式与双语 PR 规则。
+Thanks for helping improve **awesome-trading-agents**. This list is for people
+who want to find real LLM-driven trading, investment, and financial-research
+projects without sorting through older quant, time-series, or reinforcement
+learning material.
 
----
+> [!IMPORTANT]
+> **AI-native contribution path:** after editing the list, add this file and
+> the changed README file(s) to your Claude Code, Codex, Cursor, or other
+> coding-agent session. Ask the agent to review the change against scope,
+> quality bar, duplicate entries, bilingual sync, anchors, entry format, links,
+> and `awesome-lint` output. Apply small fixes, then open the PR.
 
-## 1. Welcome and scope · 欢迎与范围
+Useful review prompt:
 
-This list covers the **post-LLM, agentic stack** for trading,
-investment, and financial research. We are deliberately disjoint
-from the prior paradigm of time-series deep learning, deep
-reinforcement learning trading bots, and classical quantitative
-libraries. If a candidate entry's primary value is non-LLM
-(LSTM/Transformer/GNN price prediction, DRL trading, classical
-quant libraries, robo-advisor without LLM reasoning, payments /
-KYC infrastructure, generic LLM tutorials, paid SaaS without an
-open artifact), it belongs in another list — see the **Related
-awesome lists** section of [README.md](README.md#related-awesome-lists)
-for the right home.
+```text
+Review my awesome-trading-agents change. Check whether the entry is in scope,
+meets the quality bar, duplicates an existing listing, keeps README.md and
+README.zh-CN.md structurally synced, preserves anchors, follows the entry
+format, and only treats awesome-lint output as advisory. Suggest minimal fixes.
+```
 
-本清单专注 LLM 之后的 agentic stack：交易、投资、
-金融研究三类场景。我们刻意与"旧范式"（时间序列深度学习、深度
-强化学习交易 bot、经典量化库）不重叠。若某仓库的主要价值非
-LLM（LSTM/Transformer/GNN 价格预测、DRL 交易、经典量化库、
-非 LLM 推理的 robo-advisor、支付/KYC 基础设施、通用 LLM 教程、
-无开源 artifact 的付费 SaaS），请去 README 的 **Related awesome
-lists / 相关清单** 看更合适的归处。
+## 1. Welcome and scope
 
----
+This list covers the post-LLM, agentic stack for trading, investment, and
+financial research:
 
-## 2. Quality bar · 质量门槛
+- LLM-driven trading agents and multi-agent decision systems.
+- Investment research, due-diligence, and market-monitoring copilots.
+- MCP servers for market data, brokerage, execution, research, and backtesting.
+- Claude Skills / Agent Skills for repeatable trading and finance workflows.
+- Agent benchmarks, reference architectures, papers, and learning resources
+  when they directly support the trading-agent stack.
 
-To be admitted to the list, an entry should meet these quality and
-credibility criteria. PR authors should self-evaluate against this
-checklist in the PR description:
+Some useful projects belong elsewhere. We normally do not list classical quant
+libraries, LSTM / Transformer / GNN price-prediction repos, deep-RL trading bots,
+generic LLM tutorials, pure fintech infrastructure, or closed products without a
+public technical artifact. The [Related awesome lists](README.md#related-awesome-lists)
+section points readers to better homes for those areas.
 
-- [ ] **Open source** — or has a public technical artifact (paper,
-      architecture doc, reproducible demo).
-- [ ] **Demonstrably LLM-driven** — uses LLM reasoning as a primary
-      decision component, not as a feature extractor or post-hoc
-      explainer.
-- [ ] **Active or recently active** — last commit within the last
-      12 months, unless the entry is a foundational paper or
-      canonical reference.
-- [ ] **Clear scope + minimal documentation** — has a clear scope
-      description and at least minimal documentation.
-- [ ] **Distinct contribution** — distinct enough from existing
-      entries to merit a separate listing.
-- [ ] **Public credibility signal** — normally at least **100
-      GitHub stars** for repo entries, with enough external adoption
-      signal that the entry improves the main list's trust density.
+## 2. Quality bar
 
-The public main list is intentionally selective. Repositories below
-100 GitHub stars are normally deferred rather than listed. A maintainer
-may approve a narrow exception only for a first-party artifact from a
-recognized protocol, broker, exchange, or data vendor, or for a
-canonical companion repo to a listed paper / benchmark. Such exceptions
-must be documented in the PR or issue.
+The main list is selective because readers use it to save time. A new entry
+should clear this checklist, or explain why a narrow exception is justified:
 
-每条目应满足以上质量与可信度准入条件。提交 PR 时请在描述中逐条
-自评。公开主清单刻意保持高信噪比：仓库条目通常需要至少
-**100 GitHub stars**。低于 100 stars 的仓库默认暂缓收录；只有
-已知协议 / 券商 / 交易所 / 数据厂商的一方官方产物，或已收录论文 /
-benchmark 的 canonical companion repo，才可由维护者明确豁免，并
-在 PR 或 issue 中记录理由。
+- [ ] **Open source**, or at least has a public technical artifact such as a
+      paper, architecture doc, or reproducible demo.
+- [ ] **Demonstrably LLM-driven**: LLM reasoning is a primary part of the
+      research, decision, tool-use, or execution workflow.
+- [ ] **Active or recently active**: normally updated in the last 12 months,
+      unless it is a canonical paper, benchmark, or foundational reference.
+- [ ] **Clear scope and minimal documentation** so a reader can understand what
+      the project does and how it is used.
+- [ ] **Distinct contribution** compared with nearby entries already in the
+      list.
+- [ ] **Public credibility signal**: repo entries normally need at least **100
+      GitHub stars**, unless they are first-party artifacts from a recognized
+      protocol, broker, exchange, data vendor, or canonical companion repos for
+      listed papers / benchmarks.
 
----
+The 100-star floor is a default, not a punishment for early projects. Smaller
+repos are often better handled through an issue, a watch note, or a later
+maintenance pass after more public adoption appears.
 
-## 3. Submission format — new entry · 新增条目格式
+## 3. Submission format for new entries
 
-Open an issue first (the smoothest path) using the
-[Add entry · 添加条目](.github/ISSUE_TEMPLATE/add-entry.md)
-template, OR open a PR directly with the following fields filled:
+The smoothest path is to open an issue with the
+[Add entry](.github/ISSUE_TEMPLATE/add-entry.md) template. A direct PR is also
+fine when the fit is obvious.
 
-1. **Repo URL** — the canonical primary URL (the org/repo of record,
-   not a fork).
-2. **Pillar + sub-category** — pick from existing sub-categories in
-   [README.md](README.md#contents). Use the section heading exactly as
-   it appears in the README (e.g. `Multi-agent decision frameworks`).
-3. **Entry bullet body** — match the existing entry rendering:
+For each new entry, include:
 
-   ```
-   - [<repo-name>](<repo-url>) - <≤120 en chars / ≤80 zh chars description>. *(Optional pairing / lineage note.)*
+1. **Repo URL**: the canonical primary URL, not a fork unless the fork is the
+   project being listed.
+2. **Pillar and sub-category**: pick an existing section from `README.md`; do
+   not create a new sub-category in a routine entry PR.
+3. **Entry bullet body** matching the local style:
+
+   ```markdown
+   - [org/repo](https://github.com/org/repo) - Concise description under 120 English chars. *(Optional pairing or lineage note.)*
    ```
 
-   Do not include inline activity dates, per-entry star counts, or
-   bracketed curation badges in the README entry.
+4. **Submission-time metadata** in the PR description: GitHub stars and recent
+   activity date (`YYYY-MM-DD`). Do not put per-entry star counts, activity
+   dates, or temporary badges into the README row.
+5. **Pairing annotation**, when useful: use `pairs with <name>` when the entry
+   uses another listed artifact, or `used by <name>` when another listed
+   artifact depends on it.
+6. **Self-evaluation** against the quality-bar checklist in section 2.
 
-4. **Metadata at submission time** — GitHub stars, last commit or
-   activity date (`YYYY-MM-DD`). Do not include language, license,
-   per-entry star counts, or bracketed curation badges in the README
-   row. If license context matters, mention it in curation notes.
-5. **Pairing annotation (optional)** — if the entry pairs with an
-   already-listed Skill / MCP / Agent, declare it as
-   `→ pairs with <name>` (the entry uses the other) or
-   `← used by <name>` (the entry is used by the other).
-6. **Self-evaluation against the §2 quality-bar checklist** — six
-   boxes ticked or explicitly waived with one-sentence reasoning.
+## 4. Removal, moves, and restructuring
 
-新增条目走 [Add entry · 添加条目](.github/ISSUE_TEMPLATE/add-entry.md)
-issue 模板最顺；也可直接开 PR，按上述 6 项填写。
+Use the [Remove entry](.github/ISSUE_TEMPLATE/remove-entry.md) template when an
+entry appears stale, archived, deleted, no longer LLM-driven, or incorrectly
+listed.
 
----
+Use the [Restructure](.github/ISSUE_TEMPLATE/restructure.md) template when you
+want to add, merge, rename, or split sub-categories. Category boundaries affect
+navigation across both READMEs, so they are reviewed separately from routine
+new-entry PRs.
 
-## 4. Submission format — removal / move · 移除 / 重定位
+Small moves between existing sub-categories can be proposed in an issue or PR,
+but include the reason so maintainers can preserve the curation trail.
 
-To request removal of an entry (link rot, project archived,
-license changed, no longer LLM-driven, etc.) or to request a move
-between sub-categories, open an issue using the
-[Remove entry · 移除条目](.github/ISSUE_TEMPLATE/remove-entry.md)
-template. PRs that remove entries directly without a tracking
-issue may be asked to open the issue first so the rationale is
-preserved in the issue tracker.
+## 5. Removal criteria
 
-For sub-category boundary changes (proposing a new axis, merging
-two axes, splitting an axis), open a **Restructure proposal**
-using the [Restructure · 重构提议](.github/ISSUE_TEMPLATE/restructure.md)
-template. Do not silently relabel sub-categories in a regular
-new-entry PR.
+An entry may be removed, moved, or marked for watch-list follow-up when one of
+these becomes true:
 
-移除已收录条目走 Remove entry issue 模板。子类边界变更（新增子类、
-合并子类、拆分子类）走 Restructure 模板，不要在常规新增 PR 中
-顺带改子类标签。
+- The repo is deleted or archived for more than 12 months without a clear
+  successor.
+- The project is no longer primarily LLM-driven.
+- The public artifact disappears, becomes unusable, or turns into a closed
+  product with no open code, paper, architecture note, or reproducible demo.
+- The project no longer clears the main-list credibility floor during a
+  maintainer review and has no documented first-party or canonical-companion
+  exception.
+- A re-evaluation finds multiple quality-bar failures that make the listing less
+  useful to readers.
 
----
+## 6. Bilingual README rule
 
-## 5. Removal criteria · 移除标准
+The repo has two public README files:
 
-An entry will be removed (or moved to a Watch annotation) if **any**
-of the following becomes true:
+- `README.md`: English, primary on the GitHub surface.
+- `README.zh-CN.md`: Simplified Chinese.
 
-- **Repo deleted or archived** for >12 months without a clearly
-  identified successor.
-- **License changed** to a form that contradicts the CC0-1.0
-  reusability assumptions of this list. The entry stays on the list
-  but moves to a `[Watch]` annotation if the project itself is
-  otherwise canonical.
-- **No longer LLM-driven** — refactored away from LLM reasoning as
-  a primary decision component (e.g. ablated to a non-LLM rule
-  engine or pure classical-ML pipeline).
-- **Public credibility dropped below the main-list floor** — on a
-  maintainer-led re-evaluation pass, the project no longer clears the
-  100-star reputation floor and has no documented first-party or
-  canonical companion exception.
-- **Two-or-more failures** on the §2 quality-bar checklist on a
-  re-evaluation pass.
+They should stay in structural lockstep: same sections, same sub-categories,
+same entry order, and matching `<a id>` anchors.
 
-仓库删除 / 归档 12 个月以上、许可证变更与 CC0-1.0 可重用假设
-冲突、不再 LLM 驱动、在维护者复核中低于 100-star 主清单可信度
-门槛且无明确豁免理由，或在重新评估中触发 §2 多项失败 — 任一条件
-满足即移除（或转入 Watch）。
+If a PR edits one README, it should edit the other in the same PR. If you cannot
+write both languages, open a tracked translation issue with a **7-day SLA** and
+link it in the PR description. Maintainers may hold the PR until the sibling
+edit lands, or explicitly approve a single-side merge with follow-up tracking.
 
----
+The two files do not need to be literal translations. Natural English and
+natural Chinese are preferred, as long as the structure and meaning stay aligned.
 
-## 6. Bilingual-PR rule · 双语 PR 规则
+## 7. Curation style and category boundaries
 
-This repo is bilingual: `README.md` (English, primary on
-github.com surface) and `README.zh-CN.md` (Simplified Chinese, the
-authored source-of-truth during development). They are kept in 1:1
-structural lockstep — same sections, same sub-categories, same
-entry order, identical `<a id>` anchors.
+The README should read like a practical awesome list: project link, concise
+description, and stable context that helps readers choose.
 
-**Each PR that edits one README MUST edit the other in the same
-PR**, OR open a tracked translation issue with a **7-day SLA** for
-the sibling edit. The exception path:
+- Put official status in prose, such as "Alpaca's official MCP".
+- List a cross-pillar project once in its primary section, then use a short
+  cross-link only where the secondary angle is genuinely helpful.
+- Mention fork lineage, shared authorship, or pairings only when it improves
+  navigation.
+- Keep maintainer first-read picks in the "If you only read three" block, not as
+  badges beside every row.
+- Do not add per-entry star counts, activity dates, or curation badges to the
+  README row.
 
-1. Open the PR against the README you can edit, and link to the
-   tracked translation issue in the PR description.
-2. The PR is held in review (not merged) until either:
-   - The sibling edit lands in the same PR, OR
-   - The 7-day SLA expires AND the maintainer team explicitly
-     signs off on a single-side merge with a follow-up tracking
-     issue.
+When a candidate could fit two sub-categories, choose the one whose current
+heading and intro are the closer fit. If neither section fits, open a
+Restructure issue instead of creating a new category inside a normal entry PR.
 
-Bilingual lockstep applies to:
+## 8. Awesome-lint and local checks
 
-- Section headings and sub-category labels (mirror, not literal
-  translate).
-- Entry order within each sub-category.
-- The 64+ `<a id>` anchor IDs (must remain identical across the
-  two READMEs so cross-link integrity holds).
-
-每个改动 README 的 PR 必须同 PR 改另一份 README，或开一个 7 天
-SLA 翻译跟踪 issue。两份 README 的 sub-category 顺序、条目顺序、
-`<a id>` 锚 ID 必须 1:1 对齐。
-
----
-
-## 7. Sub-category boundary policy · 子类边界政策
-
-When in doubt between two sub-categories, pick the one whose
-existing definition (visible at the sub-section heading + intro
-paragraph in [README.md](README.md)) is the closer fit. If
-**neither** sub-category fits, **file an issue rather than
-silently creating a new sub-category** — sub-category churn
-requires a maintainer-led re-enumeration pass and lands via the
-Restructure template (§4 above).
-
-Do not relabel an existing sub-category in a new-entry PR.
-Sub-category labels are part of the locked v0.1 taxonomy; changes
-are reviewed separately.
-
-判断不清时优先选与现有子类定义更接近的那一个。若都不合适，请
-开 Restructure issue 而非自创新子类 — 子类边界改动需维护团队
-统一重新枚举。
-
----
-
-## 8. Curation notes · 策展说明
-
-The README should read like a conventional awesome list: project
-link, concise description, and only durable metadata. Avoid
-bracketed badges for curation judgments. Express important context in
-plain language:
-
-- If a project is official, say so in the description (for example,
-  "Alpaca's official MCP").
-- If a project spans multiple pillars, list it once in its primary
-  section and use a short cross-link where the secondary angle matters.
-- If several entries share an author or fork lineage, mention that in
-  prose only when it helps navigation.
-- Maintainer first-read picks live in the README's "If you only read
-  three" block, not as per-entry badges.
-
-README 应保持传统 awesome list 的阅读方式：项目链接、简洁描述、
-只保留稳定元信息。避免把策展判断做成公开的方括号徽标，重要信息用自然语言表达：
-
-- 官方项目就在描述里写明（例如"Alpaca 官方 MCP"）。
-- 跨支柱项目只在主归属章节展开；确有必要时，在次要视角保留一行
-  回链。
-- 同作者或 fork 关系只有在有助导航时才用正文说明。
-- 维护者推荐的首读入口放在 README 顶部"如果你只读三个"，不做
-  每条目徽标。
-
----
-
-## 9. Awesome-lint as an advisory check · awesome-lint 辅助检查
-
-We use `awesome-lint` as an **advisory compatibility check** against
-the broader GitHub awesome-list ecosystem:
+`awesome-lint` is useful, especially before opening a README PR:
 
 ```bash
 npx --yes awesome-lint README.md
 ```
 
-For Chinese-language structure checks, you may also run:
+If you changed the Chinese README structure, you can also run:
 
 ```bash
 npx --yes awesome-lint README.zh-CN.md
 ```
 
-Treat the output as reviewer input, not as an automatic merge gate.
-This repository intentionally uses a few patterns that classic
-awesome lists do not: stable `<a id>` anchors, compact pairing
-metadata in entry rows, cross-pillar back-links, bilingual text, and a
-visual image header instead of a Markdown H1. These may trigger false
-positives such as duplicate links, non-standard list items, or
-heading-name complaints.
+Treat the output as reviewer input, not an automatic merge gate. This repo uses
+some local patterns that classic awesome lists may flag: stable `<a id>` anchors,
+bilingual mirrors, compact pairing notes, cross-pillar back-links, and an image
+header. Fix high-signal problems introduced by your PR, such as broken Markdown,
+malformed links, accidental duplicate primary entries, misspellings, or rows
+that no longer match the local entry format. Do not reformat the whole README
+only to silence low-signal lint noise.
 
-High-signal findings should still be fixed when they are introduced by
-your PR: broken Markdown, malformed links, accidental duplicate primary
-entries, misspellings, or list items that no longer follow the local
-entry format. Do **not** reformat the entire README only to satisfy
-`awesome-lint`; preserve this repository's local structure unless a
-maintainer explicitly asks for a broader cleanup.
-
-我们把 `awesome-lint` 当作**辅助兼容性检查**，用来对照 GitHub
-awesome-list 生态的传统格式，而不是自动阻塞合并的硬门槛：
-
-```bash
-npx --yes awesome-lint README.md
-```
-
-也可以对中文版跑一遍结构检查：
-
-```bash
-npx --yes awesome-lint README.zh-CN.md
-```
-
-请把输出视为 review 参考。本仓库有意使用若干传统 awesome list
-不常见的结构：稳定 `<a id>` 锚点、紧凑的更新日期元信息、跨支柱回链、双语
-文本。因此 duplicate links、non-standard list items、
-heading-name 等结果可能是可接受的噪音。
-
-如果 PR 新引入了高信号问题，应当修复：Markdown 破损、链接格式
-错误、意外重复主条目、拼写问题、或条目不再符合本仓库条目格式。
-不要为了通过 `awesome-lint` 而大规模重排 README；除非维护者明确
-要求，否则以保持本仓库既有结构为准。
-
----
-
-## 10. Code of conduct · 行为准则
+## 9. Code of conduct
 
 This project follows the
 [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
-By participating, you agree to uphold its standards: be respectful,
-assume good faith, focus on the technical work, and report
-violations to the maintainer team via a private channel.
+Please keep discussions respectful, assume good faith, and focus on the
+technical and curation work. Maintainers may close threads that become personal,
+repetitive, or unrelated to improving the list.
 
-Behaviour that demeans contributors, derails technical discussion,
-or pursues personal disputes through PR / issue threads is
-out-of-bounds and may result in PR closure or, in repeated cases,
-a ban from the repo.
+## 10. License notice
 
-本项目遵循 [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
-行为准则。参与本项目即同意遵守该准则：保持尊重、善意推断、聚焦
-技术、违规请通过私信渠道向维护团队反馈。
+The list text, curation structure, README files, contribution guides, and PR
+text contributed to this repository are released under [CC0-1.0](LICENSE). By
+submitting a PR, you agree that your contribution to the list text is released
+under CC0-1.0.
 
----
+Each linked project keeps its own license. Listing a project here does not
+change the license of the linked code or artifact.
 
-## 11. License notice · 许可证说明
-
-The list itself — this README, `CONTRIBUTING.md`, the curation
-structure, and every contribution to the list's text — is released
-under [CC0-1.0](LICENSE). By submitting a PR you agree that your
-contribution to the list's text is released under CC0-1.0.
-
-**Each linked entry retains its own license**. Adding an entry to this
-list does not change that entry's license. The CC0-1.0 release covers
-the description text we author about the entry; it does not cover the
-linked code itself.
-
-清单本身（本 README、CONTRIBUTING.md、策展结构、对清单文本的
-每一个贡献）以 [CC0-1.0](LICENSE) 发布。提交 PR 即表示同意你对
-清单文本的贡献以 CC0-1.0 发布。每个被收录的条目保留其原有许可；
-收录不改变原项目许可。
-
----
-
-Maintained by [LLMQuant](https://llmquant.com) · 维护方：LLMQuant 社区
+Maintained by [LLMQuant](https://llmquant.com).

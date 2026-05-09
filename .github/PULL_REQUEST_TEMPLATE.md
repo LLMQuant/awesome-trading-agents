@@ -2,7 +2,7 @@
 Thanks for contributing to awesome-trading-agents.
 Please fill out the fields below. See CONTRIBUTING.md for the full
 quality bar, submission format, and bilingual-PR rule.
-感谢贡献。请按下列模板填写。完整规则见 CONTRIBUTING.md。
+感谢贡献。请按下列模板填写。中文规则见 CONTRIBUTING.zh-CN.md。
 -->
 
 ## 1. Repo URL · 仓库链接
@@ -39,7 +39,7 @@ stars in the quality-bar metadata instead.
 
 ## 4. Quality-bar self-checklist · 质量门槛自评
 
-<!-- Tick each box that applies. See CONTRIBUTING.md §2 for full criteria. -->
+<!-- Tick each box that applies. See CONTRIBUTING.md §2 / CONTRIBUTING.zh-CN.md §2 for full criteria. -->
 
 - **GitHub stars at submission time**: <!-- e.g. 1.2k; repo entries normally need >=100 stars for the main list -->
 
@@ -62,7 +62,7 @@ If any box is unchecked, briefly justify the waiver:
 ## 5. Bilingual symmetric-edit · 双语对称编辑
 
 <!--
-Per CONTRIBUTING.md §6 (PROJECT.md §6), each PR that edits one
+Per CONTRIBUTING.md §6 / CONTRIBUTING.zh-CN.md §6, each PR that edits one
 README MUST edit the other in the same PR, OR open a tracked
 translation issue with a 7-day SLA. Tick exactly one:
 -->
@@ -76,6 +76,7 @@ translation issue with a 7-day SLA. Tick exactly one:
 <!--
 Optional but useful for README changes:
 `npx --yes awesome-lint README.md`
+`npx --yes awesome-lint README.zh-CN.md`
 
 This is an advisory compatibility check, not a hard merge gate. Existing
 local patterns such as stable anchors, compact pairing metadata, and cross-pillar
@@ -83,6 +84,7 @@ back-links may produce acceptable false positives.
 -->
 
 - [ ] I ran `npx --yes awesome-lint README.md`, or this PR does not change README structure.
+- [ ] I ran `npx --yes awesome-lint README.zh-CN.md`, or this PR does not change README.zh-CN.md structure.
 - Notes / ignored findings:
 
 
@@ -95,9 +97,6 @@ nearby entries, or whether it has a cross-pillar relationship that
 should be mentioned in prose.
 -->
 
-
-
----
 
 By submitting this PR you agree that your contribution to the
 list's text is released under [CC0-1.0](../LICENSE).
