@@ -162,6 +162,8 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [ulab-uiuc/live-trade-bench](https://github.com/ulab-uiuc/live-trade-bench) - Live-market evaluation for trading agents; UIUC ULab's live-eval benchmark; distinct from backtest-only benchmarks.
 - [Open-Finance-Lab/AgenticTrading](https://github.com/Open-Finance-Lab/AgenticTrading) - Open-Finance-Lab's academic framework + dataset for agent-trading research.
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - Finance-agent benchmark / task suite from vals-ai.
+<a id="agents-deepfund"></a>
+- [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - Multi-agent fund-investment benchmark; LLM analysts evaluate stocks in a unified trading arena with leaderboard.
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
@@ -303,6 +305,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research team, arXiv 2412.20138 (2024). Introduces the multi-agent debate decision framework: analyst team + bull/bear researcher debate + trader + risk control + portfolio manager. [paper](https://arxiv.org/abs/2412.20138) · [code](#agents-tradingagents)
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One, 2025; ships with a 40-page evaluation paper. Forward-only audit of ChatGPT managing a real US-equity micro-cap portfolio for six months under strict pre-defined rules. [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation, arXiv 2405.14767 (2024). Early academic finance-AI agent platform; multimodal analyst agents tied to the FinGPT model line. [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
+- [DeepFund: Will LLMs Be Professional At Fund Investment?](https://arxiv.org/abs/2505.11065) - HKUST-Dial Lab, arXiv 2505.11065 (2025). Multi-agent fund-investment benchmark with LLM analysts and a trading arena leaderboard. [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
 
 > For broader finance-LLM papers, models, and datasets, see [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs). This list stays focused on usable agent, MCP, and Skill projects.
 
