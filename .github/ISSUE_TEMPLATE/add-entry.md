@@ -18,7 +18,7 @@ For the quality bar and full submission rules, see CONTRIBUTING.md.
 
 
 
-## 2. Pillar + sub-category · 支柱 + 子类
+## 2. Pillar + sub-category · 放在哪个分类
 
 <!--
 Pick from existing sub-categories in README.md.
@@ -44,12 +44,12 @@ Put dates and stars in §4 metadata instead.
 
 ```
 
-## 4. Metadata at proposal time · 提议时元信息
+## 4. Metadata at proposal time · 提交时的基本信息
 
 - **GitHub stars**: <!-- e.g. 1.2k; repo entries normally need >=100 stars for the main list -->
 - **Last commit or activity date**: <!-- YYYY-MM-DD -->
 
-## 5. Quality-bar self-evaluation · 质量门槛自评
+## 5. Quality-bar self-evaluation · 条目自查
 
 <!--
 Six boxes. Tick what applies; if any is unchecked, justify in §7.
@@ -66,7 +66,7 @@ See CONTRIBUTING.md §2 / CONTRIBUTING.zh-CN.md §2 for full criteria.
 - [ ] **Public credibility signal** — normally >=100 GitHub stars
       for repo entries, or a documented maintainer-level exception.
 
-## 6. Pairing annotation (optional) · 配对标注（可选）
+## 6. Pairing annotation (optional) · 关联项目（可选）
 
 <!--
 If the entry pairs with an already-listed Skill / MCP / Agent,
@@ -76,7 +76,7 @@ declare it as `→ pairs with <name>` (entry uses the other) or
 
 
 
-## 7. Curation notes (optional) · 策展说明（可选）
+## 7. Curation notes (optional) · 补充说明（可选）
 
 <!--
 Optional: explain if the project is official, why it is distinct from

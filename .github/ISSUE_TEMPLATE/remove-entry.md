@@ -15,7 +15,7 @@ instead.
 变更（新增 / 合并 / 拆分子类）请走 Restructure 模板。
 -->
 
-## 1. Entry being removed · 被移除条目
+## 1. Entry being removed · 要移除的条目
 
 - **Repo URL**: <!-- e.g. https://github.com/org/repo -->
 - **Current sub-category in README**: <!-- e.g. `Agents → Multi-agent decision frameworks` -->
@@ -43,7 +43,7 @@ URL with a fetch error, etc. Maintainers re-verify before merging.
 
 
 
-## 4. Proposed action · 建议动作
+## 4. Proposed action · 建议如何处理
 
 <!-- Pick one. -->
 
@@ -52,7 +52,7 @@ URL with a fetch error, etc. Maintainers re-verify before merging.
 - [ ] **Move to a different sub-category** (specify):
       <!-- Target sub-category, en + zh dual label -->
 
-## 5. Bilingual symmetric-edit reminder · 双语对称编辑提醒
+## 5. Bilingual symmetric-edit reminder · 中英文同步提醒
 
 <!--
 Whoever lands the change in a PR must edit BOTH README.md and

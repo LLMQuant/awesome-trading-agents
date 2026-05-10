@@ -28,7 +28,7 @@ proposal here rather than relabel in a regular new-entry PR.
 - [ ] **Rename** a sub-category (en label, zh label, or both).
 - [ ] **Reorder** sub-categories (rare; only if count-based ordering changes).
 
-## 2. Affected pillar · 涉及的支柱
+## 2. Affected pillar · 涉及的分类
 
 - [ ] Agents
 - [ ] MCPs
@@ -71,7 +71,7 @@ Cite specific entries that don't fit cleanly.
 - **TOC count changes**: <!-- e.g. Agents 8 → 9, MCPs 7 → 7, Skills 8 → 8 -->
 - **README headings affected**: <!-- list -->
 
-## 7. Bilingual lockstep reminder · 双语对称编辑提醒
+## 7. Bilingual lockstep reminder · 中英文同步提醒
 
 <!--
 Any restructure that lands MUST update both README.md and

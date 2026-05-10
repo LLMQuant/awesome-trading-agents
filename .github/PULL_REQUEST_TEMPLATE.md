@@ -11,7 +11,7 @@ quality bar, submission format, and bilingual-PR rule.
 
 
 
-## 2. Pillar + sub-category · 支柱 + 子类
+## 2. Pillar + sub-category · 放在哪个分类
 
 <!--
 Pick from existing sub-categories in README.md. Use the section label exactly as it
@@ -37,7 +37,7 @@ stars in the quality-bar metadata instead.
 
 ```
 
-## 4. Quality-bar self-checklist · 质量门槛自评
+## 4. Quality-bar self-checklist · 条目自查
 
 <!-- Tick each box that applies. See CONTRIBUTING.md §2 / CONTRIBUTING.zh-CN.md §2 for full criteria. -->
 
@@ -59,7 +59,7 @@ If any box is unchecked, briefly justify the waiver:
 
 
 
-## 5. Bilingual symmetric-edit · 双语对称编辑
+## 5. Bilingual symmetric-edit · 中英文同步
 
 <!--
 Per CONTRIBUTING.md §6 / CONTRIBUTING.zh-CN.md §6, each PR that edits one
@@ -89,7 +89,7 @@ back-links may produce acceptable false positives.
 
 
 
-## 7. Curation notes (optional) · 策展说明（可选）
+## 7. Curation notes (optional) · 补充说明（可选）
 
 <!--
 Optional: explain if the project is official, why it is distinct from
