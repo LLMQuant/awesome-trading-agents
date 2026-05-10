@@ -188,6 +188,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 ### Market data / data providers
 
 <a id="mcps-financial-datasets"></a>
+- [LLMQuant/data-mcp](https://github.com/LLMQuant/data-mcp) - LLMQuant Data's official MCP server, positioned as the "knowledge harness for AI-native finance"; covers semantic search over a 50k+ quant wiki and 1.2k+ research papers, US equity OHLCV + dividends/splits, crypto klines & snapshots (Binance Spot), 50+ curated macro indicators (FRED, etc.), SEC 10-K/10-Q full-text browse & read, and three-way 13F institutional holdings queries (manager → holdings / ticker → holders / top managers).
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets' first-party MCP; US-equity + crypto fundamentals (3 statements + ratios) + prices + news.
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ news-source aggregation (Bloomberg / Reuters / FT / CoinDesk and more) + AI impact-scoring / trading-signal + WebSocket streaming.
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
