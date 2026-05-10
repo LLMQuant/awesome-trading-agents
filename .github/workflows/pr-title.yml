@@ -1,0 +1,60 @@
+name: PR Title Check
+
+# Validates PR titles against Conventional Commits.
+#
+# Why: this repo squash-merges every PR, so the PR title becomes the
+# subject of the resulting commit on `master`. Individual commits on a
+# PR branch are not constrained — only the PR title is.
+#
+# Spec: see CONTRIBUTING.md §9 / CONTRIBUTING.zh-CN.md §9.
+#
+# Allowed types:
+#   docs · fix · style · chore · ci · refactor · feat
+#
+# Allowed scopes (optional — small PRs may omit a scope):
+#   agents · mcp · skills · papers · en · zh-CN · ci · infra
+#
+# Subject rules (enforced via `subjectPattern`):
+#   - Must start with a lowercase letter (imperative mood, no caps).
+#   - Must not end with a period.
+#   - Should fit within ~72 characters (GitHub UI truncation point).
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  validate:
+    name: Validate PR title (Conventional Commits)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            docs
+            fix
+            style
+            chore
+            ci
+            refactor
+            feat
+          scopes: |
+            agents
+            mcp
+            skills
+            papers
+            en
+            zh-CN
+            ci
+            infra
+          requireScope: false
+          subjectPattern: ^[a-z].+[^.]$
+          subjectPatternError: |
+            The subject "{subject}" doesn't match the required pattern.
+            It must start with a lowercase letter and must not end with
+            a period. See CONTRIBUTING.md §9 for the full spec.

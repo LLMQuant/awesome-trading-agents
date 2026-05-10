@@ -157,14 +157,63 @@ npx --yes awesome-lint README.zh-CN.md
 如果 PR 新引入了高信号问题，应当修复：Markdown 损坏、链接格式错误、意外重复主条目、
 拼写问题、条目不符合本仓库格式等。不要为了消除低信号 lint 噪音而大规模重排 README。
 
-## 9. 行为准则
+## 9. PR 标题与 commit 约定
+
+本仓库遵循 [Conventional Commits](https://www.conventionalcommits.org/)。
+由于我们对所有 PR 使用 **squash-merge**，**PR 标题就是 master 上 squash
+commit 的 subject**——所以只需要约束 PR 标题；PR 分支内部的细节 commit
+不受约束。
+
+`.github/workflows/pr-title.yml` 会自动校验每个 PR 标题。不符合规范的 PR
+无法合并。
+
+### 格式
+
+```
+<type>(<scope>): <subject>
+```
+
+### Types
+
+| type       | 适用场景                                              |
+|------------|-------------------------------------------------------|
+| `docs`     | 增删改清单条目、README 内容                           |
+| `fix`      | 死链、错别字、错误条目                                |
+| `style`    | 排版、中英文空格、纯格式                              |
+| `chore`    | 仓库维护、依赖升级                                    |
+| `ci`       | workflows、lint 配置、`.lycheeignore`                 |
+| `refactor` | 调整或移动现有条目 / 分类                             |
+| `feat`     | 新章节、新支柱、较大结构性添加                        |
+
+### Scopes（可选）
+
+`agents` · `mcp` · `skills` · `papers` · `en` · `zh-CN` · `ci` · `infra`
+
+小型 PR 可不带 scope（例：`fix: typo in intro`）。
+
+### Subject
+
+- 祈使句首词小写（`add`，不是 `Added` / `Adds`）。
+- 末尾不加句号。
+- 控制在 ~72 字符以内（GitHub UI 截断阈值）。
+- 默认英文；scope 为 `zh-CN` 的纯中文修改可使用中文。
+
+### 示例
+
+- `docs(agents): add HKUSTDial/DeepFund to benchmarks`
+- `fix(mcp): remove archived foo-server entry`
+- `style(zh-CN): add CJK spacing in DeepEar entry`
+- `ci: ignore github topic pages in lychee`
+- `chore: bump label set to v1.1`
+
+## 10. 行为准则
 
 本项目遵循
 [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)。
 讨论时请保持尊重、善意推断，尽量聚焦技术和策展问题。若讨论变成人身化、重复拉扯，
 或偏离如何改进清单，维护者可能会关闭相关 thread。
 
-## 10. 许可证说明
+## 11. 许可证说明
 
 本清单文本、策展结构、README、贡献指南，以及贡献者提交到本仓库的 PR 文本，均以
 [CC0-1.0](LICENSE) 发布。提交 PR 即表示你同意你对清单文本的贡献以 CC0-1.0 发布。

@@ -180,7 +180,56 @@ malformed links, accidental duplicate primary entries, misspellings, or rows
 that no longer match the local entry format. Do not reformat the whole README
 only to silence low-signal lint noise.
 
-## 9. Code of conduct
+## 9. PR title & commit conventions
+
+This repo follows [Conventional Commits](https://www.conventionalcommits.org/).
+Because we **squash-merge** every PR, the **PR title becomes the subject of the
+resulting commit on `master`** — so the PR title is the only thing that needs
+to follow the format. Individual commits on a PR branch are unconstrained.
+
+A GitHub Action (`.github/workflows/pr-title.yml`) validates every PR title
+against the spec below. PRs whose title doesn't match cannot be merged.
+
+### Format
+
+```
+<type>(<scope>): <subject>
+```
+
+### Types
+
+| type       | when to use                                                    |
+|------------|----------------------------------------------------------------|
+| `docs`     | add / remove / edit list entries, README content               |
+| `fix`      | dead link, typo, broken or misclassified entry                 |
+| `style`    | formatting, CJK whitespace, pure layout                        |
+| `chore`    | repo maintenance, dependency bumps                             |
+| `ci`       | workflows, lint config, `.lycheeignore`                        |
+| `refactor` | restructure or move existing entries / categories              |
+| `feat`     | new section, new pillar, larger structural addition            |
+
+### Scopes (optional)
+
+`agents` · `mcp` · `skills` · `papers` · `en` · `zh-CN` · `ci` · `infra`
+
+Small PRs may omit a scope (e.g. `fix: typo in intro`).
+
+### Subject
+
+- Imperative mood, lowercase first word (`add`, not `Added` or `Adds`).
+- No trailing period.
+- Fit within ~72 characters (GitHub UI truncates beyond this).
+- English by default; Chinese acceptable for `zh-CN`-scoped changes.
+
+### Examples
+
+- `docs(agents): add HKUSTDial/DeepFund to benchmarks`
+- `fix(mcp): remove archived foo-server entry`
+- `style(zh-CN): add CJK spacing in DeepEar entry`
+- `ci: ignore github topic pages in lychee`
+- `chore: bump label set to v1.1`
+
+## 10. Code of conduct
 
 This project follows the
 [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
@@ -188,7 +237,7 @@ Please keep discussions respectful, assume good faith, and focus on the
 technical and curation work. Maintainers may close threads that become personal,
 repetitive, or unrelated to improving the list.
 
-## 10. License notice
+## 11. License notice
 
 The list text, curation structure, README files, contribution guides, and PR
 text contributed to this repository are released under [CC0-1.0](LICENSE). By

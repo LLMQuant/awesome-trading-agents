@@ -1,8 +1,20 @@
 <!--
 Thanks for contributing to awesome-trading-agents.
+
+PR title MUST follow Conventional Commits (CI-enforced):
+  <type>(<scope>): <subject>
+Examples:
+  docs(agents): add foo/bar to benchmarks
+  fix(mcp): remove archived baz-server
+  style(zh-CN): add CJK spacing in some entry
+See CONTRIBUTING.md §9 for the full spec.
+
 Please fill out the fields below. See CONTRIBUTING.md for the full
 quality bar, submission format, and bilingual-PR rule.
-感谢贡献。请按下列模板填写。中文规则见 CONTRIBUTING.zh-CN.md。
+
+感谢贡献。请按下列模板填写。
+PR 标题必须遵循 Conventional Commits（CI 强制校验），详见 CONTRIBUTING.zh-CN.md §9。
+其余规则见 CONTRIBUTING.zh-CN.md。
 -->
 
 ## 1. Repo URL · 仓库链接
