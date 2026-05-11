@@ -53,7 +53,7 @@ stars in the quality-bar metadata instead.
 
 <!-- Tick each box that applies. See CONTRIBUTING.md §2 / CONTRIBUTING.zh-CN.md §2 for full criteria. -->
 
-- **GitHub stars at submission time**: <!-- e.g. 1.2k; repo entries normally need >=100 stars for the main list -->
+**GitHub stars at submission time**: <!-- e.g. 1.2k; repo entries normally need >=100 stars for the main list -->
 
 - [ ] **Open source** — or has a public technical artifact
       (paper, architecture doc, reproducible demo).
