@@ -169,6 +169,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 ### Strategy coding / self-improving agents
 
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve-style agent that uses an LLM to write and improve trading strategies for backtesting.
+- [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent-driven A-share factor research engine; 8 MCP tools span hypothesis → backtest → score → WQ BRAIN submission. *(Distinct from rnikitin/QuantGPT.)*
 
 > Note: [`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) is not listed yet because its terminal has not launched. It can be added once the project is publicly usable.
 
