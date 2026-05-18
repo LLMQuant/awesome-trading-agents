@@ -129,7 +129,6 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - Daily LLM-driven stock-screening dashboard; multi-channel push (WeChat / Feishu / Telegram / Discord / Slack / email); 11 built-in strategies + agent stock-Q&A; deploy-by-GitHub-Actions.
 - [AmadeusGB/alpha-arena](https://github.com/AmadeusGB/alpha-arena) - Live AI-agent competition and research platform; uses real-market conditions to improve agents.
 - [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) - PanWatch / "盯盘侠"; AI-driven stock-monitoring assistant; multi-account positions + agent analysis + PWA mobile.
-- [rnikitin/QuantGPT](https://github.com/rnikitin/QuantGPT) - AI co-pilot for quant traders and researchers; early project from 2023, still maintained.
 - [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - DeepEar / "顺风耳"; HKUSTDial's open-source deep-research and signal-tracking framework; joint multimodal news + price tracking.
 - [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) - Earnings-call / SEC-filing / news Q&A agent; clean RAG-over-disclosures implementation.
 
@@ -228,6 +227,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 ### Research tools / analysis
 
 - [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) - Personal stock-analysis MCP for fundamentals, technical indicators, and screening.
+- [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) - Memory MCP for AI trading agents; records decision rationale, outcomes, and review evidence with 17 MCP tools and 35+ REST endpoints.
 <a id="mcps-tradingagents-mcpmode"></a>
 - [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) - TradingAgents refactored as MCP tools for multi-agent equity research.
 - [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) - Stock-analysis tool combining classic technical analysis, AI prediction, and MCP access.
@@ -269,6 +269,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - Large Skill pack for US-equity investors, covering market analysis, breadth, regimes, screening methods, options, Alpaca portfolio management, and research workflows. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - Skill pack for multiple asset classes, covering valuation, earnings review, option payoffs, ETF checks, liquidity, social research, and geopolitical-risk analysis.
+- [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite for news, stocks, sentiment, prediction, signal tracking, logic visualization, reporting, and search.
