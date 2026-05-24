@@ -129,6 +129,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - Daily LLM-driven stock-screening dashboard; multi-channel push (WeChat / Feishu / Telegram / Discord / Slack / email); 11 built-in strategies + agent stock-Q&A; deploy-by-GitHub-Actions.
 - [AmadeusGB/alpha-arena](https://github.com/AmadeusGB/alpha-arena) - Live AI-agent competition and research platform; uses real-market conditions to improve agents.
 - [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) - PanWatch / "盯盘侠"; AI-driven stock-monitoring assistant; multi-account positions + agent analysis + PWA mobile.
+- [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) - AI stock-analysis assistant for A/HK/US equities; uses Wyckoff price-volume logic and ships CLI, web, and MCP tools.
 - [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - DeepEar / "顺风耳"; HKUSTDial's open-source deep-research and signal-tracking framework; joint multimodal news + price tracking.
 - [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) - Earnings-call / SEC-filing / news Q&A agent; clean RAG-over-disclosures implementation.
 
@@ -204,6 +205,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) - FMP MCP with 250+ tools for fundamentals, market intelligence, and ETFs.
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - Minimal yfinance MCP; a lightweight Yahoo Finance data option.
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - MCP for filings, earnings calls, financials, stock data, private-market deals, and web research.
+- [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - Self-hosted finance data hub; syncs public SEC/FRED/Yahoo/FINRA/CFTC/CBOE data to PostgreSQL and serves it via MCP.
 
 <a id="mcps-brokerage"></a>
 ### Brokerage / exchange trading
