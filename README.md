@@ -333,6 +333,7 @@ We welcome community contributions: new entries, removal of dead links, and disc
 ## Related awesome lists
 
 - [DataArcTech/Awesome-FinLLMs](https://github.com/DataArcTech/Awesome-FinLLMs) - Comprehensive finance-LLM paper / model / dataset list (complementary to this list — they cover base models and papers, we cover the application-layer agents · MCPs · Skills).
+- [Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) - Curated LLM quantitative-trading paper list; complements this repo's application-layer focus with broader research coverage.
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Broad MCP server directory; use this list when you only want trading, research, data, and execution tools.
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - Traditional AI-in-finance list for deep learning, reinforcement learning, and time-series work.
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - Classical quant-library list; useful, but not the focus here.
