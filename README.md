@@ -192,6 +192,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [LLMQuant/data-mcp](https://github.com/LLMQuant/data-mcp) - LLMQuant Data's official MCP server, positioned as the "knowledge harness for AI-native finance"; covers semantic search over a 50k+ quant wiki and 1.2k+ research papers, US equity OHLCV + dividends/splits, crypto klines & snapshots (Binance Spot), 50+ curated macro indicators (FRED, etc.), SEC 10-K/10-Q full-text browse & read, and three-way 13F institutional holdings queries (manager → holdings / ticker → holders / top managers).
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets' first-party MCP; US-equity + crypto fundamentals (3 statements + ratios) + prices + news.
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ news-source aggregation (Bloomberg / Reuters / FT / CoinDesk and more) + AI impact-scoring / trading-signal + WebSocket streaming.
+- [connerlambden/helium-mcp](https://github.com/connerlambden/helium-mcp) - Free remote MCP + REST API providing 31-dim structured news bias scoring across 3.2M+ articles and 5,000+ sources (credibility, sensationalism, AI-authorship-probability, opinion-vs-fact, 27 others) + real-time market data. 50 free queries per IP, no signup.
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
@@ -229,6 +230,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 ### Research tools / analysis
 
 - [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) - Personal stock-analysis MCP for fundamentals, technical indicators, and screening.
+- [connerlambden/helium-mcp](https://github.com/connerlambden/helium-mcp) - Per-symbol ML-derived options pricing MCP (fair value, prob_ITM, Greeks). Each prob_ITM is Brier-scoreable at expiration. Also exposes top-strategies recommendation and historical options data via parallel REST endpoints.
 - [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) - Memory MCP for AI trading agents; records decision rationale, outcomes, and review evidence with 17 MCP tools and 35+ REST endpoints.
 <a id="mcps-tradingagents-mcpmode"></a>
 - [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) - TradingAgents refactored as MCP tools for multi-agent equity research.
