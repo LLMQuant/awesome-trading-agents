@@ -206,6 +206,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - Minimal yfinance MCP; a lightweight Yahoo Finance data option.
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - MCP for filings, earnings calls, financials, stock data, private-market deals, and web research.
 - [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - Self-hosted finance data hub; syncs public SEC/FRED/Yahoo/FINRA/CFTC/CBOE data to PostgreSQL and serves it via MCP.
+- [thebrierfox/intuitek-ace](https://github.com/thebrierfox/intuitek-ace) - Live US Treasury yield curves, dividend ETF/REIT/preferred stock analysis, and AI-powered passive income optimization; hosted remote MCP with x402 pay-per-call support and 50 free trial calls.
 
 <a id="mcps-brokerage"></a>
 ### Brokerage / exchange trading
