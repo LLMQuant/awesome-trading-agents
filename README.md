@@ -151,6 +151,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [ryanfrigo/kalshi-ai-trading-bot](https://github.com/ryanfrigo/kalshi-ai-trading-bot) - Grok-4-driven Kalshi prediction-market multi-agent trading system; portfolio optimization + 5-gate risk engine.
 - [OctagonAI/kalshi-trading-bot-cli](https://github.com/OctagonAI/kalshi-trading-bot-cli) - AI-native CLI for Kalshi and Polymarket; researches an event, estimates probability, then compares it with the live order book.
 - [jvnhaoWen/PolyAgent](https://github.com/jvnhaoWen/PolyAgent) - Polymarket-focused multi-skill trading agent; focused single-venue Polymarket LLM agent.
+- [cryptuon/polybot](https://github.com/cryptuon/polybot) - Open-source Python automated trading system for prediction markets; supports Polymarket + Kalshi, paper/live modes, backtesting, and an LLM-strategy extension point.
 
 > Also useful here: [agent-next/polymarket-paper-trader](#mcps-polymarket-paper-trader) is listed under MCPs because it is a paper-trading simulator, but it is built for AI agents.
 
