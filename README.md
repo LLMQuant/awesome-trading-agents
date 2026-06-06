@@ -193,6 +193,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets' first-party MCP; US-equity + crypto fundamentals (3 statements + ratios) + prices + news.
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ news-source aggregation (Bloomberg / Reuters / FT / CoinDesk and more) + AI impact-scoring / trading-signal + WebSocket streaming.
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana agent trust scoring and on-chain receipt verification MCP server. Tools: `resolve_agent`, `score_agent`, `preflight_check`, `verify_trust_receipt` (free) + `get_trust_receipt` (paid via x402/USDC). Useful for agents that need to verify counterpart trust before on-chain execution. Zero-install HTTP transport. *(→ pairs with: Solana/crypto trading agents.)*
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - Turkish BIST + US-equity + fund data MCP serving regional markets outside China and the US.
