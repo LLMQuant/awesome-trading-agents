@@ -283,12 +283,14 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX official Skills for OnchainOS, covering wallets, token discovery, quotes, DEX swaps, and transaction broadcasting.
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
+- [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
 
 <a id="skills-vectorbt-backtesting"></a>
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - Skill for vectorbt backtesting with setup, backtest, optimization, quick stats, strategy comparison, and reusable strategy templates.
+- [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC trading-knowledge Skill for Claude Code, Codex, OpenClaw, and Hermes; includes curated knowledge cards, real-time market data, indicators, and chart generation.
 
 <a id="skills-brokerage"></a>
 ### Brokerage execution & portfolio
@@ -296,6 +298,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="skills-trading-skills"></a>
 - [staskh/trading_skills](https://github.com/staskh/trading_skills) - Skill pack for option traders, covering market data, analysis, scanners, portfolio work, reports, IBKR integration, and MCP tools. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca), [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP).)*
 - [koreal6803/finlab-ai](https://github.com/koreal6803/finlab-ai) - Taiwan-equity CLI Skill for strategy discovery, backtesting, and feature engineering with FinLab data and ready-made strategy examples.
+- [second-state/fintool](https://github.com/second-state/fintool) - Rust CLI suite for agentic trading and market intelligence; exchange-specific tools for Hyperliquid / Binance / Coinbase / OKX / Polymarket plus quotes, news, SEC filings, and backtests.
 
 > Also useful here: [krakenfx/kraken-cli](#mcps-kraken-cli) includes SKILL.md packages for crypto, xStocks, forex, and derivatives. The full entry is under MCPs because Kraken CLI is mainly an exchange trading tool.
 
