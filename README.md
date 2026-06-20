@@ -84,6 +84,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Personal multi-agent finance workspace from HKUDS Lab; bundles Skills, MCP tools, and swarm presets across A-shares, HK, US, crypto, futures, and forex.
 - [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - Open-source AI quant-trading platform; combines multi-agent research, backtesting, live trading, and multi-exchange routing.
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "Spin up an autonomous hedge fund in minutes"; applies the Swarms framework to market analysis, risk, and execution; CLI / SDK first.
+- [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic crypto hedge-fund stack with specialist agents, Risk Guard, backtests, paper trading, and OpenClaw packaging.
 <a id="agents-langalpha"></a>
 - [ginlix-ai/LangAlpha](https://github.com/ginlix-ai/LangAlpha) - "Claude Code for finance"; LangChain + LangGraph multi-agent investment workbench; integrates Agents · MCPs · Skills in one repo.
 - [ygwyg/MAHORAGA](https://github.com/ygwyg/MAHORAGA) - TypeScript crypto-trading agent focused on social sentiment analysis and adaptive learning; useful if you want a TypeScript implementation.
@@ -142,8 +143,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [LuckyOne7777/LLM-Trading-Lab](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Real-money six-month experiment; ChatGPT manages a real US-equity micro-cap portfolio under strict pre-defined rules; ships with a 40-page evaluation paper.
 - [195440/nof1.ai](https://github.com/195440/nof1.ai) - Open-source autonomous AI trading agent from the nof1 family; TypeScript port.
 - [oficcejo/alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) - OKX re-implementation of nof1.ai's Alpha Arena; DeepSeek / Qwen3-Max as decision-makers; useful when comparing Chinese-language nof1 projects.
-- [wfnuser/OpenNof1](https://github.com/wfnuser/OpenNof1) - "Your custom 24/7 AI trading agent"; open-source implementation of the nof1.ai Alpha Arena approach.
-- [kojott/LLM-trader-test](https://github.com/kojott/LLM-trader-test) - Lightweight teaching testbed for the nof1.ai Alpha Arena approach.
+- [wquguru/nof0](https://github.com/wquguru/nof0) - nof1.ai Alpha Arena reimplementation with Go backend, Next.js UI, Hyperliquid, LLM executors, backtests, leaderboards.
 
 <a id="agents-prediction-market"></a>
 ### Prediction-market specialists
@@ -284,6 +284,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX official Skills for OnchainOS, covering wallets, token discovery, quotes, DEX swaps, and transaction broadcasting.
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
+- [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - First-party Polymarket Agent Skill for auth, orders, market data, WebSockets, bridging, and gasless flows.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
