@@ -201,6 +201,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) - Massive (formerly Polygon.io) first-party MCP; multi-asset market-data coverage.
 - [Alex2Yang97/yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp) - Full-feature Yahoo Finance MCP; historical prices + fundamentals + option chains + news; Yahoo wrapper.
 - [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp) - SEC EDGAR MCP; 10-K / 10-Q / 8-K / insider trades / filings reader; common filings entry across awesome-lists.
+- [FilingFirehose](https://filingfirehose.com/mcp) - Hosted SEC EDGAR MCP; 8-K / 10-K / 10-Q / S-3 / 13D reader plus forensic risk grading (LOW/MODERATE/ELEVATED/HIGH) and cyber-incident tracking on any US ticker; remote endpoint at `https://filingfirehose.com/mcp`, no install.
 - [zwldarren/akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp) - A-share data MCP backed by the AKShare-One normalizer; an alternative implementation within the AKShare ecosystem.
 - [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) - FMP MCP with 250+ tools for fundamentals, market intelligence, and ETFs.
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - Minimal yfinance MCP; a lightweight Yahoo Finance data option.
