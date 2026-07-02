@@ -162,6 +162,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [ulab-uiuc/live-trade-bench](https://github.com/ulab-uiuc/live-trade-bench) - Live-market evaluation for trading agents; UIUC ULab's live-eval benchmark; distinct from backtest-only benchmarks.
 - [Open-Finance-Lab/AgenticTrading](https://github.com/Open-Finance-Lab/AgenticTrading) - Open-Finance-Lab's academic framework + dataset for agent-trading research.
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - Finance-agent benchmark / task suite from vals-ai.
+- [HeliumTrades/helium-market-resolution-benchmark](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) - 300 frozen option-chain questions across six tickers; grades IV, delta, arbitrage, and rich-vs-average strike. Ground truth from live chains, not model opinions. [Overview](https://heliumtrades.com/benchmarks/)
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - Multi-agent fund-investment benchmark; LLM analysts evaluate stocks in a unified trading arena with leaderboard.
 
