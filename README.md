@@ -271,8 +271,10 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - Large Skill pack for US-equity investors, covering market analysis, breadth, regimes, screening methods, options, Alpaca portfolio management, and research workflows. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - Skill pack for multiple asset classes, covering valuation, earnings review, option payoffs, ETF checks, liquidity, social research, and geopolitical-risk analysis.
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - Value-investing research framework for Claude Code / Codex; combines four investor playbooks with multi-agent analysis.
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
+- [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native investment workflow team for research, portfolio work, and trading-oriented analysis.
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite for news, stocks, sentiment, prediction, signal tracking, logic visualization, reporting, and search.
 
@@ -292,6 +294,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="skills-vectorbt-backtesting"></a>
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - Skill for vectorbt backtesting with setup, backtest, optimization, quick stats, strategy comparison, and reusable strategy templates.
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC trading-knowledge Skill for Claude Code, Codex, OpenClaw, and Hermes; includes curated knowledge cards, real-time market data, indicators, and chart generation.
+- [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) - Agent Skills and tool schemas for building, backtesting, and deploying Hyperliquid trading strategies.
 
 <a id="skills-brokerage"></a>
 ### Brokerage execution & portfolio
