@@ -193,6 +193,8 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets' first-party MCP; US-equity + crypto fundamentals (3 statements + ratios) + prices + news.
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ news-source aggregation (Bloomberg / Reuters / FT / CoinDesk and more) + AI impact-scoring / trading-signal + WebSocket streaming.
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
+<a id="mcps-agentservices"></a>
+- [vbkotecha/aiservices-api](https://github.com/vbkotecha/aiservices-api) - AgentServices — 37-tool MCP server with x402 pay-per-call APIs for FX rates, crypto prices, stock quotes, market news, and onchain analytics; 41 paid endpoints on Base mainnet.
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - Turkish BIST + US-equity + fund data MCP serving regional markets outside China and the US.
