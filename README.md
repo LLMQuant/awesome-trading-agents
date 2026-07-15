@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <a href="https://github.com/LLMQuant/awesome-trading-agents/stargazers"><img src="https://img.shields.io/github/stars/LLMQuant/awesome-trading-agents?style=flat" alt="GitHub stars" /></a>
+  <a href="https://github.com/LLMQuant/awesome-trading-agents"><img src="https://img.shields.io/github/stars/LLMQuant/awesome-trading-agents?style=flat" alt="GitHub stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/topics/trading-agents"><img src="https://img.shields.io/badge/topics-trading--agents%20%C2%B7%20mcp--servers%20%C2%B7%20agent--skills-blue" alt="Topics" /></a>
   <a href="https://github.com/LLMQuant/awesome-trading-agents/commits"><img src="https://img.shields.io/github/last-commit/LLMQuant/awesome-trading-agents" alt="Last commit" /></a>
@@ -83,6 +83,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 <a id="agents-vibe-trading"></a>
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Personal multi-agent finance workspace from HKUDS Lab; bundles Skills, MCP tools, and swarm presets across A-shares, HK, US, crypto, futures, and forex.
 - [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - Open-source AI quant-trading platform; combines multi-agent research, backtesting, live trading, and multi-exchange routing.
+- [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) - Backtestable AI trading-agent/team runtime with research, debate, risk, and memory in one backtest/paper/live strategy loop.
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "Spin up an autonomous hedge fund in minutes"; applies the Swarms framework to market analysis, risk, and execution; CLI / SDK first.
 - [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic crypto hedge-fund stack with specialist agents, Risk Guard, backtests, paper trading, and OpenClaw packaging.
 <a id="agents-langalpha"></a>
@@ -116,6 +117,8 @@ Agents are projects where an LLM is part of the actual research or trading decis
 <a id="agents-ai-hedge-fund"></a>
 - [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) - Widely forked LLM-driven equity-trading repo; analyst personas (Buffett / Munger / Cathie Wood) propose, the portfolio manager decides.
 - [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) - "Your one-person Wall Street"; single agent covering research → entry → hold → exit; Claude Agent SDK + Trading-as-Git approval workflow + cross-asset UTA account design.
+<a id="agents-nofx"></a>
+- [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) - Self-hosted LLM trading terminal; models decide and explain while a Go runtime enforces hard risk limits across nine exchanges.
 <a id="agents-atlas-gic"></a>
 - [chrisworsey55/atlas-gic](https://github.com/chrisworsey55/atlas-gic) - General Intelligence Capital's self-improving trading agent; focuses on continuous self-research rather than agent debate.
 - [Gajesh2007/ai-trading-agent](https://github.com/Gajesh2007/ai-trading-agent) - AI trading agent on Hyperliquid; single-LLM-driven execution; shows direct Hyperliquid integration.
@@ -145,6 +148,8 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [oficcejo/alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) - OKX re-implementation of nof1.ai's Alpha Arena; DeepSeek / Qwen3-Max as decision-makers; useful when comparing Chinese-language nof1 projects.
 - [wquguru/nof0](https://github.com/wquguru/nof0) - nof1.ai Alpha Arena reimplementation with Go backend, Next.js UI, Hyperliquid, LLM executors, backtests, leaderboards.
 
+> Also see: [NoFxAiOS/nofx](#agents-nofx) runs multiple LLM traders side by side with a leaderboard; its main entry stays under single-agent traders because it is first a full trading terminal.
+
 <a id="agents-prediction-market"></a>
 ### Prediction-market specialists
 
@@ -168,6 +173,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
 
+- [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM factor-research and perpetuals platform; mines and validates 86 factors with IC / ICIR, decay, backtests, and attribution.
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve-style agent that uses an LLM to write and improve trading strategies for backtesting.
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent-driven A-share factor research engine; 8 MCP tools span hypothesis → backtest → score → WQ BRAIN submission. *(Distinct from rnikitin/QuantGPT.)*
 
@@ -195,6 +201,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
+- [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - Zero-dependency TypeScript stock-data SDK with built-in MCP for A/H/US equities and funds via browser, Node.js, CLI, Claude Code, or Codex.
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - Turkish BIST + US-equity + fund data MCP serving regional markets outside China and the US.
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - Stock and crypto data MCP built on akshare / aktools; broad market-data coverage through the AKShare ecosystem.
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A-share-only data MCP; single-market deep coverage instead of multi-source aggregation.

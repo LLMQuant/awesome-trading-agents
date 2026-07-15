@@ -2,3 +2,6 @@
 # (client-side rendered + anti-bot). They work fine in browsers, so
 # the link target is valid for users — only the CI checker can't reach it.
 ^https://github\.com/topics/.*$
+
+# Star History's image API intermittently returns 503 to CI clients
+^https://api\.star-history\.com/svg\?repos=LLMQuant/awesome-trading-agents&type=Date$
