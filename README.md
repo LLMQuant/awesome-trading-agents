@@ -10,7 +10,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/LLMQuant/awesome-trading-agents"><img src="https://img.shields.io/github/stars/LLMQuant/awesome-trading-agents?style=flat" alt="GitHub stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
-  <a href="https://github.com/topics/trading-agents"><img src="https://img.shields.io/badge/topics-trading--agents%20%C2%B7%20mcp--servers%20%C2%B7%20agent--skills-blue" alt="Topics" /></a>
+  <a href="https://github.com/topics/agent-skills"><img src="https://img.shields.io/badge/topics-trading--agents%20%C2%B7%20mcp--servers%20%C2%B7%20agent--skills-blue" alt="Topics" /></a>
   <a href="https://github.com/LLMQuant/awesome-trading-agents/commits"><img src="https://img.shields.io/github/last-commit/LLMQuant/awesome-trading-agents" alt="Last commit" /></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/bilingual-zh%20%C2%B7%20en-708090" alt="Bilingual" /></a>
 </p>
@@ -278,6 +278,9 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - Large Skill pack for US-equity investors, covering market analysis, breadth, regimes, screening methods, options, Alpaca portfolio management, and research workflows. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - Skill pack for multiple asset classes, covering valuation, earnings review, option payoffs, ETF checks, liquidity, social research, and geopolitical-risk analysis.
+<a id="skills-xquik-x-twitter-scraper"></a>
+- [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - Open-source Agent Skill for bounded X research through the closed-source Xquik REST API or MCP.
+  *(Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.)*
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - Value-investing research framework for Claude Code / Codex; combines four investor playbooks with multi-agent analysis.
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
@@ -372,4 +375,4 @@ The maintainer team reviews new entries and category changes.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LLMQuant/awesome-trading-agents&type=Date)](https://www.star-history.com/#LLMQuant/awesome-trading-agents&Date) 
+[View the repository's star history.](https://www.star-history.com/#LLMQuant/awesome-trading-agents&Date)
