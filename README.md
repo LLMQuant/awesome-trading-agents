@@ -316,6 +316,8 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="resources"></a>
 ## Resources
 
+- [My AI Investment OS](https://ordinarymantrying.com/tools/ai-invest-os.html) - Free 5-question diagnostic identifying your investing school (Index/Value/Growth/Trend) with 8-AI committee verdict and personalized Prompt Library. Includes 6 companion tools: DCA Simulator, Recovery Navigator, Dividend Engine, Kelly Master, Pyramid Builder, Portfolio Clarity. No login required.
+
 <a id="resources-papers"></a>
 ### Papers
 
