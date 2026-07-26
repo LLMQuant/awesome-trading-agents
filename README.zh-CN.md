@@ -209,7 +209,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) - FMP MCP，提供 250+ 工具，覆盖基本面、市场洞察和 ETF。
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - 极简 yfinance MCP；获取 Yahoo Finance 数据的轻量选择。
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - 文件 / 财报会议 / 财务 / 股票数据 / 私募交易 / 网络研究；覆盖私募市场交易与 VC 数据。
-- [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - 自部署金融数据中转站；把 SEC / FRED / Yahoo / FINRA / CFTC / CBOE 数据同步到 PostgreSQL，再通过 MCP 给 Agent 查询。
+- [daniel3303/stock-market-mcp-server](https://github.com/daniel3303/stock-market-mcp-server) - Equibles；美股市场数据 MCP —— 实时股票与期权价格、美国国会议员交易、内部人交易、SEC 文件全文检索、XBRL 基本面、13F 机构持仓、财报电话会议记录、做空数据与 FRED 宏观数据，共 90+ 个工具；远程服务 https://mcp.equibles.com/mcp，亦可自部署。
 
 <a id="mcps-brokerage"></a>
 ### Brokerage / exchange trading
