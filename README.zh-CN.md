@@ -249,6 +249,8 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 <a id="mcps-prediction-market"></a>
 ### Prediction markets
 
+<a id="mcps-depthfeed"></a>
+- [vcorp-dev/depthfeed-mcp](https://github.com/vcorp-dev/depthfeed-mcp) - DepthFeed 官方预测市场数据 MCP；提供 Polymarket、Kalshi 与 Limitless 的实时及历史订单簿。
 <a id="mcps-polymarket"></a>
 - [caiovicentino/polymarket-mcp-server](https://github.com/caiovicentino/polymarket-mcp-server) - 45 工具 Polymarket MCP；实时监控 + 显式下单安全保护。
 <a id="mcps-polymarket-paper-trader"></a>
