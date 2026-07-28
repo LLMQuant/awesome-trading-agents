@@ -252,6 +252,8 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-prediction-market"></a>
 ### Prediction markets
 
+<a id="mcps-depthfeed"></a>
+- [vcorp-dev/depthfeed-mcp](https://github.com/vcorp-dev/depthfeed-mcp) - First-party prediction-market data MCP with live and historical order books across Polymarket, Kalshi, and Limitless.
 <a id="mcps-polymarket"></a>
 - [caiovicentino/polymarket-mcp-server](https://github.com/caiovicentino/polymarket-mcp-server) - 45-tool Polymarket MCP; real-time monitoring and explicit order-safety guards.
 <a id="mcps-polymarket-paper-trader"></a>
