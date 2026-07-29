@@ -218,6 +218,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-tradingagents).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken 官方 AI-native CLI，内置 MCP；覆盖加密、xStocks、外汇、衍生品、纸面交易，并附带 SKILL.md packages。
+- [Bitget-AI/agent-cli](https://github.com/Bitget-AI/agent-cli) - Bitget 官方终端 AI 交易工具（`bgc`），封装 Bitget UTA v3 API，覆盖市场、交易、账户、资金、子账户、借贷、税务等领域，内置dry-run、只读、二次确认、模拟盘等安全开关。
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - 韩国投资证券 KIS 官方 SDK；包含 Trading MCP、strategy builder 和 backtester。
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
@@ -291,6 +292,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX 双语 EN / CN Skills 仓库；包含贡献、评审和安全说明；可和 onchainos-skills 一起看。
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills；查询 token、钱包和行情数据，并在 Solana / BSC / Base 上执行链上交易。
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - Polymarket 官方 Agent Skill；覆盖认证、下单、行情、WebSocket、桥接和 gasless 交易流程。
+- [Bitget-AI/agent-skill](https://github.com/Bitget-AI/agent-skill) - Bitget 官方 AI 交易技能文件，让 Claude Code、Codex、OpenClaw 具备判断何时调用 `bgc`（Bitget-AI/agent-cli）的能力，纯 Markdown 实现，无需运行时或 API 密钥。
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
