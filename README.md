@@ -224,6 +224,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
+- [Bitget-AI/agent-mcp](https://github.com/Bitget-AI/agent-mcp) - Bitget's official MCP for spot & futures trading; 89 UTA v3 operations via 14 tools, HMAC-signed, with paper-trading mode.
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - Representative MT5 MCP; lets LLMs trade through any MetaTrader 5 broker; MCP connector for a major retail-forex platform.
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - Alternative MT5 MCP for quotes, trading, and history; uses MCP resources as well as tools.
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - Representative IBKR MCP; exposes Interactive Brokers TWS / Gateway as MCP tools; aimed at professional-broker workflows.
