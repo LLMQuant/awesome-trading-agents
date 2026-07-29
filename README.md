@@ -221,6 +221,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca's official MCP for market data plus paper or live trading in equities, ETFs, options, and crypto. *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-tradingagents).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken's official AI-native CLI with an embedded MCP; covers crypto, xStocks, forex, derivatives, paper trading, and bundled SKILL.md packs.
+- [Bitget-AI/agent-cli](https://github.com/Bitget-AI/agent-cli) - Bitget's official terminal AI trading tool (`bgc`) wrapping the Bitget UTA v3 API across market, trade, account, funds, subaccount, loan, and tax domains, with dry-run, read-only, confirm, and paper-trading safety flags.
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
@@ -294,6 +295,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - First-party Polymarket Agent Skill for auth, orders, market data, WebSockets, bridging, and gasless flows.
+- [Bitget-AI/agent-skill](https://github.com/Bitget-AI/agent-skill) - Bitget's official AI trading skill file giving Claude Code, Codex, and OpenClaw the judgment to invoke `bgc` (Bitget-AI/agent-cli) safely, shipped as pure Markdown with no runtime or API key required.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
