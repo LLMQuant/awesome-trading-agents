@@ -196,6 +196,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets 厂商官方 MCP；美股 + 加密的基本面（三表 + 比率）+ 价格 + 新闻。
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ 信源聚合（Bloomberg / Reuters / FT / CoinDesk 等）+ AI 评定的影响打分 / 交易信号 + WebSocket 流。
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - 按调用计费的实时数据 MCP，使用 x402 微支付；覆盖搜索、研究、行情、加密、X / Twitter。
+- [bargo-ai/bargo-free-api-packages](https://github.com/bargo-ai/bargo-free-api-packages) - Bargo 官方 MCP/API，用于美国国会议员股票交易披露；提供 REST 和 npm/Python 客户端。
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP 横跨 A 股 / HK / 美股 / 基金 / 债券 / 宏观 / 稳定币 / 加密 / 财经新闻。
 - [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - 零依赖 TypeScript 股票数据 SDK + 内置 MCP server；覆盖 A / H / 美股和公募基金，支持 Browser / Node.js、CLI 与 Claude Code / Codex。

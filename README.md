@@ -199,6 +199,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) - Financial Datasets' first-party MCP; US-equity + crypto fundamentals (3 statements + ratios) + prices + news.
 - [6551Team/opennews-mcp](https://github.com/6551Team/opennews-mcp) - 84+ news-source aggregation (Bloomberg / Reuters / FT / CoinDesk and more) + AI impact-scoring / trading-signal + WebSocket streaming.
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - Real-time data MCP with pay-per-call x402 payments; covers search, research, quotes, crypto, X, and Twitter.
+- [bargo-ai/bargo-free-api-packages](https://github.com/bargo-ai/bargo-free-api-packages) - Official Bargo MCP/API for U.S. congressional stock-trade disclosures, with REST and npm/Python clients.
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
 - [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - Zero-dependency TypeScript stock-data SDK with built-in MCP for A/H/US equities and funds via browser, Node.js, CLI, Claude Code, or Codex.
