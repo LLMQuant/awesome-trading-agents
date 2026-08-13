@@ -166,6 +166,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - vals-ai 出品的金融 Agent benchmark / task 套件。
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - 多 Agent 基金投资评测；LLM 分析师在统一交易竞技场内产生信号并通过排行榜对比。
+- [Yijia-Xiao/FinanceHarness](https://github.com/Yijia-Xiao/FinanceHarness) - 自治金融研究框架；用带引用、按时间点隔离的研究流程和 FinanceGym 评分评测金融 Agent。
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
@@ -281,12 +282,14 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native 投资工作流团队；覆盖研究、组合和交易导向分析。
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite；覆盖新闻、股票、情绪、预测、信号跟踪、逻辑可视化、报告和搜索。
+- [komako-workshop/digital-oracle](https://github.com/komako-workshop/digital-oracle) - 市场与宏观研究 Skill；汇总 13 个公开金融数据源，生成概率判断、信号对比和场景分析。
 
 > 这里也值得看：[HKUDS/Vibe-Trading](#agents-vibe-trading) 和 [ginlix-ai/LangAlpha](#agents-langalpha) 都内置 Skills。完整介绍放在 Agents，因为它们是完整的 Agent 工作台，不只是 Skill pack。
 
 <a id="skills-crypto"></a>
 ### Crypto / DeFi / on-chain
 
+- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance 官方 Skills Hub；18 个 Skill，覆盖加密研究、交易、钱包和 DeFi。
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX 官方 Skills，集成 OnchainOS API；覆盖钱包、代币发现、报价、DEX swap 和交易广播。
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX 双语 EN / CN Skills 仓库；包含贡献、评审和安全说明；可和 onchainos-skills 一起看。
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills；查询 token、钱包和行情数据，并在 Solana / BSC / Base 上执行链上交易。
