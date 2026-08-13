@@ -169,6 +169,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - Finance-agent benchmark / task suite from vals-ai.
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - Multi-agent fund-investment benchmark; LLM analysts evaluate stocks in a unified trading arena with leaderboard.
+- [Yijia-Xiao/FinanceHarness](https://github.com/Yijia-Xiao/FinanceHarness) - Autonomous financial-research harness with cited, point-in-time workflows and FinanceGym evaluation.
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
@@ -284,12 +285,14 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native investment workflow team for research, portfolio work, and trading-oriented analysis.
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite for news, stocks, sentiment, prediction, signal tracking, logic visualization, reporting, and search.
+- [komako-workshop/digital-oracle](https://github.com/komako-workshop/digital-oracle) - Market and macro research Skill using 13 public financial data sources for probability estimates and scenario analysis.
 
 > Also useful here: [HKUDS/Vibe-Trading](#agents-vibe-trading) and [ginlix-ai/LangAlpha](#agents-langalpha) both include bundled Skills. Their main entries stay under Agents because they are full agent workspaces, not just Skill packs.
 
 <a id="skills-crypto"></a>
 ### Crypto / DeFi / on-chain
 
+- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance's official Skills hub with 18 packages for crypto research, trading, wallets, and DeFi.
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX official Skills for OnchainOS, covering wallets, token discovery, quotes, DEX swaps, and transaction broadcasting.
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
