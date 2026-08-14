@@ -298,6 +298,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
 
+- [lavs9/quantwave](https://github.com/lavs9/quantwave) - Polars-native TA and backtesting library with an agent skill for keeping research and live strategy code consistent.
 <a id="skills-vectorbt-backtesting"></a>
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - Skill for vectorbt backtesting with setup, backtest, optimization, quick stats, strategy comparison, and reusable strategy templates.
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC trading-knowledge Skill for Claude Code, Codex, OpenClaw, and Hermes; includes curated knowledge cards, real-time market data, indicators, and chart generation.
