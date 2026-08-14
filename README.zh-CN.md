@@ -295,6 +295,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
 
+- [lavs9/quantwave](https://github.com/lavs9/quantwave) - Polars 原生 TA 与回测库；附带 agent skill，帮助保持研究代码和实盘策略代码一致。
 <a id="skills-vectorbt-backtesting"></a>
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - 面向 vectorbt 的回测 Skill；提供 setup、backtest、optimization、quick stats、strategy comparison 和可复用策略模板。
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC 交易知识 Skill，面向 Claude Code、Codex、OpenClaw 和 Hermes；包含知识卡片、实时行情、技术指标和图表生成。
