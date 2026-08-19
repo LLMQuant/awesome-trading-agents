@@ -368,4 +368,4 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 新条目和分类调整由 LLMQuant 维护团队评审。
 
 ## Star History
-  [![Star History Chart](https://api.star-history.com/svg?repos=LLMQuant/awesome-trading-agents&type=Date)](https://www.star-history.com/#LLMQuant/awesome-trading-agents&Date) 
+  [![Star History Chart](https://star-history.dera.page/svg?repos=LLMQuant/awesome-trading-agents&type=Date)](https://star-history.dera.page/#LLMQuant/awesome-trading-agents&Date) 
