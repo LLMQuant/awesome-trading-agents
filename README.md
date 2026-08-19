@@ -372,4 +372,4 @@ The maintainer team reviews new entries and category changes.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LLMQuant/awesome-trading-agents&type=Date)](https://www.star-history.com/#LLMQuant/awesome-trading-agents&Date) 
+[![Star History Chart](https://star-history.dera.page/svg?repos=LLMQuant/awesome-trading-agents&type=Date)](https://star-history.dera.page/#LLMQuant/awesome-trading-agents&Date) 
