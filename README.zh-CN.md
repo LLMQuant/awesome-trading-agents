@@ -278,6 +278,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - 面向 Claude Code / Codex 的价值投资研究框架；把四位投资大师方法论和 Multi-agent 分析结合起来。
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - 给 Claude Code 用的金融行业技能包；84 个小技能，帮它处理投资管理、合规检查、投顾日常、交易运营和持仓报告。
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code 研究 Skill；用基本面、技术面、期权流、内部交易和行业背景生成买 / 卖 / 持有报告。
+- [adanos-software/adanos-market-sentiment-skill](https://github.com/adanos-software/adanos-market-sentiment-skill) - Adanos 官方 Agent Skill；为股票和加密研究提供 Reddit、X、新闻和 Polymarket 情绪数据。
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native 投资工作流团队；覆盖研究、组合和交易导向分析。
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite；覆盖新闻、股票、情绪、预测、信号跟踪、逻辑可视化、报告和搜索。

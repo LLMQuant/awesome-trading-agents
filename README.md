@@ -281,6 +281,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - Value-investing research framework for Claude Code / Codex; combines four investor playbooks with multi-agent analysis.
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
+- [adanos-software/adanos-market-sentiment-skill](https://github.com/adanos-software/adanos-market-sentiment-skill) - Official Agent Skill for stock and crypto research using Reddit, X, news, and Polymarket sentiment data.
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native investment workflow team for research, portfolio work, and trading-oriented analysis.
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite for news, stocks, sentiment, prediction, signal tracking, logic visualization, reporting, and search.
