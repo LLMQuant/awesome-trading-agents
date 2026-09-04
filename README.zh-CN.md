@@ -72,6 +72,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent 交易框架；分析师、看多 / 看空研究员、交易员、风控和组合经理一起讨论后给出决策；基于 LangGraph。
 - [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) - TradingAgents 的中文与 A 股本地化加强分支；接入 Tushare / AkShare 数据源 + 中文报告 + A 股监管语境。 *(← fork of TauricResearch/TradingAgents.)*
 - [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) - A 股专项重写；15 个 Agent + 可视化界面 + OpenClaw / Claude Code 集成 + Docker 一键部署。 *(← fork of TauricResearch/TradingAgents.)*
+- [rufeng0411/Nova-TradingAgent](https://github.com/rufeng0411/Nova-TradingAgent) - 自托管 A 股投研 Web 台：十五人辩论、可选 Tushare L2 与 Qlib；默认不下单。AGPL-3.0。 *(← related to TauricResearch/TradingAgents.)*
 - [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) - A 股 Multi-agent 分析师团队；龙虎榜跟踪 + 板块轮动告警 + miniqmt 量化执行钩子。 *(← inspired by TradingAgents.)*
 <a id="agents-ai-trader"></a>
 - [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) - "Agent-Native Trading Platform"；任意 AI Agent（OpenClaw / nanobot / Claude Code / Codex / Cursor）通过 SKILL.md 注册并经 AI4trade.ai 实盘交易；多资产 + 复制交易 + 跨平台同步。
