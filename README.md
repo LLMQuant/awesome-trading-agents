@@ -226,6 +226,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - Representative MT5 MCP; lets LLMs trade through any MetaTrader 5 broker; MCP connector for a major retail-forex platform.
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - Alternative MT5 MCP for quotes, trading, and history; uses MCP resources as well as tools.
+- [Ax3lsk3r3/QuantVibe](https://github.com/Ax3lsk3r3/QuantVibe) - FastMCP engine connecting Microsoft Qlib ML factors to MetaTrader 5 execution with cryptographic risk validation.
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - Representative IBKR MCP; exposes Interactive Brokers TWS / Gateway as MCP tools; aimed at professional-broker workflows.
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - Alternative IBKR MCP in TS / JS; complements rcontesti's Python build.
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - Independent QuantConnect MCP focused on strategy research and workflow automation.

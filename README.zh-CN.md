@@ -223,6 +223,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - MT5 MCP；让 LLM 通过任意 MetaTrader 5 经纪商交易；面向主流零售外汇平台的 MCP 连接器。
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - 另一个 MT5 MCP；提供行情、交易和历史数据，并同时使用 MCP resources 与 tools。
+- [Ax3lsk3r3/QuantVibe](https://github.com/Ax3lsk3r3/QuantVibe) - FastMCP 量化交易引擎；连接微软 Qlib 机器学习因子与 MetaTrader 5 执行，内置密码学风控闸门。
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - IBKR MCP；把 Interactive Brokers TWS / Gateway 暴露为 MCP 工具；面向专业经纪商场景。
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - 替代 IBKR MCP；TS / JS 实现，与 rcontesti Python 版互补。
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - 独立 QuantConnect MCP；重点是策略研究和工作流自动化。
