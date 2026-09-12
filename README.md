@@ -174,6 +174,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 ### Strategy coding / self-improving agents
 
 - [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM factor-research and perpetuals platform; mines and validates 86 factors with IC / ICIR, decay, backtests, and attribution.
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve-style agent that uses an LLM to write and improve trading strategies for backtesting.
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent-driven A-share factor research engine; 8 MCP tools span hypothesis → backtest → score → WQ BRAIN submission. *(Distinct from rnikitin/QuantGPT.)*
 
