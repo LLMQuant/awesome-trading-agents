@@ -82,7 +82,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) - AI4Finance Foundation's open-source finance AI agent platform; useful for academic-style stock research, market forecasting, and report generation.
 <a id="agents-vibe-trading"></a>
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Personal multi-agent finance workspace from HKUDS Lab; bundles Skills, MCP tools, and swarm presets across A-shares, HK, US, crypto, futures, and forex.
-- [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - Open-source AI quant-trading platform; combines multi-agent research, backtesting, live trading, and multi-exchange routing.
+- [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) - Open-source AI quant-trading platform; combines multi-agent research, backtesting, live trading, and multi-exchange routing.
 - [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) - Backtestable AI trading-agent/team runtime with research, debate, risk, and memory in one backtest/paper/live strategy loop.
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "Spin up an autonomous hedge fund in minutes"; applies the Swarms framework to market analysis, risk, and execution; CLI / SDK first.
 - [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic crypto hedge-fund stack with specialist agents, Risk Guard, backtests, paper trading, and OpenClaw packaging.
