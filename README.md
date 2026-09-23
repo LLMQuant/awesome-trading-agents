@@ -262,7 +262,9 @@ MCPs are servers that let an agent call external tools through the Model Context
 
 - [whchien/ai-trader](https://github.com/whchien/ai-trader) - Backtrader-based framework with 20+ strategies, multi-market support, CLI tools, and an embedded MCP for agent workflows.
 
-<a id="skills"></a>
+<a id="skills"></a>- [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Useful for due-diligence on issuers. Remote: https://statsnet.co/mcp
+
+
 ## Skills
 
 <p align="center">
