@@ -144,6 +144,8 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [195440/nof1.ai](https://github.com/195440/nof1.ai) - nof1 系列的开源自治 AI 交易 Agent；TypeScript 移植版。
 - [oficcejo/alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) - nof1.ai Alpha Arena 的 OKX 重实现；DeepSeek / Qwen3-Max 担任决策者；适合看 nof1 中文衍生项目。
 - [wquguru/nof0](https://github.com/wquguru/nof0) - nof1.ai Alpha Arena 高热度复刻；Go 后端 + Next.js 前端，接 Hyperliquid、LLM executor、回测和排行榜。
+<a id="agents-dxrg-continuous-record"></a>
+- [ProjectDXAI/continuous-record-llm-trading-agents](https://github.com/ProjectDXAI/continuous-record-llm-trading-agents) - 两个生产环境 LLM 交易 Agent 集群（DX Terminal Pro 与 [DXAP](https://www.dxap.ai/)）的六个月运行记录；包含论文材料、图表和聚合数据。
 
 > 也可以看：[NoFxAiOS/nofx](#agents-nofx) 支持多个 LLM trader 并行运行和排行榜；完整介绍放在 Single-agent end-to-end traders，因为它首先是一套完整交易终端。
 
@@ -322,6 +324,8 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One，2025；附 40 页评估论文。ChatGPT 在严格预定义规则下管理一个真实美股微盘组合 6 个月的 forward-only 审计。 [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation，arXiv 2405.14767（2024）。较早的学术取向 finance AI Agent 平台；多模态分析师 Agent + FinGPT 模型线。 [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUSTDial，arXiv 2505.11065（2025）。多 Agent 基金投资评测框架；LLM 分析师 + 交易竞技场排行榜。 [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
+- [What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets](https://arxiv.org/abs/2609.05663) - DX Research Group（DXRG），arXiv 2609.05663（2026）。两个生产环境 LLM 交易集群的六个月行为记录：3,505 个用户出资、在 Base 上用真实 ETH 交易的 Agent，以及 [DXAP](https://www.dxap.ai/) 在 Hyperliquid 上以模拟成交为主的永续合约集群。 [paper](https://arxiv.org/abs/2609.05663) · [code](#agents-dxrg-continuous-record)
+- [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091) - DX Research Group（DXRG），arXiv 2604.26091（2026）。DX Terminal Pro 为期 21 天的部署：3,505 个用户出资的 LLM Agent 在 Base 上用真实 ETH 交易；衡量模型之外的控制层如何改变 Agent 行为。 [paper](https://arxiv.org/abs/2604.26091)
 
 > 更完整的金融 LLM 论文、模型和数据集，请看 [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs)。本清单只聚焦可用的 Agents、MCPs 和 Skills 项目。
 

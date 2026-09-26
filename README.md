@@ -147,6 +147,8 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [195440/nof1.ai](https://github.com/195440/nof1.ai) - Open-source autonomous AI trading agent from the nof1 family; TypeScript port.
 - [oficcejo/alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) - OKX re-implementation of nof1.ai's Alpha Arena; DeepSeek / Qwen3-Max as decision-makers; useful when comparing Chinese-language nof1 projects.
 - [wquguru/nof0](https://github.com/wquguru/nof0) - nof1.ai Alpha Arena reimplementation with Go backend, Next.js UI, Hyperliquid, LLM executors, backtests, leaderboards.
+<a id="agents-dxrg-continuous-record"></a>
+- [ProjectDXAI/continuous-record-llm-trading-agents](https://github.com/ProjectDXAI/continuous-record-llm-trading-agents) - Six-month production record of two LLM trading fleets, DX Terminal Pro and [DXAP](https://www.dxap.ai/); paper artifacts, figures, aggregate data.
 
 > Also see: [NoFxAiOS/nofx](#agents-nofx) runs multiple LLM traders side by side with a leaderboard; its main entry stays under single-agent traders because it is first a full trading terminal.
 
@@ -325,6 +327,8 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One, 2025; ships with a 40-page evaluation paper. Forward-only audit of ChatGPT managing a real US-equity micro-cap portfolio for six months under strict pre-defined rules. [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation, arXiv 2405.14767 (2024). Early academic finance-AI agent platform; multimodal analyst agents tied to the FinGPT model line. [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUSTDial, arXiv 2505.11065 (2025). Multi-agent fund-investment benchmark with LLM analysts and a trading arena leaderboard. [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
+- [What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets](https://arxiv.org/abs/2609.05663) - DX Research Group (DXRG), arXiv 2609.05663 (2026). Six months of production behavior from two LLM trading fleets: 3,505 user-funded agents trading real ETH on Base, then the [DXAP](https://www.dxap.ai/) Hyperliquid perps fleet, whose record is mostly paper fills. [paper](https://arxiv.org/abs/2609.05663) · [code](#agents-dxrg-continuous-record)
+- [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091) - DX Research Group (DXRG), arXiv 2604.26091 (2026). The 21-day DX Terminal Pro deployment of 3,505 user-funded LLM agents trading real ETH on Base; measures how controls outside the model change agent behavior. [paper](https://arxiv.org/abs/2604.26091)
 
 > For broader finance-LLM papers, models, and datasets, see [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs). This list stays focused on usable agent, MCP, and Skill projects.
 
