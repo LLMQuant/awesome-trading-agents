@@ -99,7 +99,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"; multi-agent project designed for retail users.
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent equity-research system that lets LLM agents gather evidence, then uses a separate math layer to produce BUY / NEUTRAL / SELL.
 <a id="agents-oracle3"></a>
-- [YichengYang-Ethan/oracle3](https://github.com/YichengYang-Ethan/oracle3) - Multi-venue (Kalshi / Polymarket / Solana) prediction-market autonomous agent; Wang-Transform pricing + Kelly criterion + cross-venue arbitrage.
+- [YichengYang-Ethan/oracle3-prediction-market-agent](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent) - Prediction-market MCP server: LLM agents get Kalshi/Polymarket books, fee-aware arbitrage checks, and paper trading.
 - [Ganador1/FenixAI_tradingBot](https://github.com/Ganador1/FenixAI_tradingBot) - LangGraph + Ollama + CrewAI autonomous trading agent; local-LLM first.
 - [ryan-yuuu/crypto-trading-arena](https://github.com/ryan-yuuu/crypto-trading-arena) - Open-source crypto-trading arena; Claude / Claude Code agents compete head-to-head on live crypto data.
 - [FareedKhan-dev/multi-agent-trading-system](https://github.com/FareedKhan-dev/multi-agent-trading-system) - "Deep Thinking Trading System" tutorial implementation; beginner-friendly multi-agent example design.
@@ -159,7 +159,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 
 > Also useful here: [agent-next/polymarket-paper-trader](#mcps-polymarket-paper-trader) is listed under MCPs because it is a paper-trading simulator, but it is built for AI agents.
 
-> Also see: [YichengYang-Ethan/oracle3](#agents-oracle3) is listed with multi-agent systems above, and it is especially relevant here for multi-venue prediction-market arbitrage.
+> Also see: [YichengYang-Ethan/oracle3-prediction-market-agent](#agents-oracle3) is listed with multi-agent systems above, and it is especially relevant here for multi-venue prediction-market arbitrage.
 
 <a id="agents-benchmarks"></a>
 ### Benchmarks & evaluations

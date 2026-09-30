@@ -96,7 +96,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"；面向散户设计的 Multi-agent 项目。
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent 股票研究系统；LLM Agent 负责收集证据，另一个数学层把信号合成 BUY / NEUTRAL / SELL。
 <a id="agents-oracle3"></a>
-- [YichengYang-Ethan/oracle3](https://github.com/YichengYang-Ethan/oracle3) - 多场地（Kalshi / Polymarket / Solana）prediction-market autonomous Agent；Wang-Transform 定价 + Kelly 准则 + 跨场地套利。
+- [YichengYang-Ethan/oracle3-prediction-market-agent](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent) - 预测市场 MCP server：让 LLM Agent 获取 Kalshi / Polymarket 盘口、含手续费的无套利检查与模拟交易。
 - [Ganador1/FenixAI_tradingBot](https://github.com/Ganador1/FenixAI_tradingBot) - LangGraph + Ollama + CrewAI 自治交易 Agent；本地 LLM 优先。
 - [ryan-yuuu/crypto-trading-arena](https://github.com/ryan-yuuu/crypto-trading-arena) - 开源加密交易竞技场；Claude / Claude Code Agent 在实时加密数据上互相比拼。
 - [FareedKhan-dev/multi-agent-trading-system](https://github.com/FareedKhan-dev/multi-agent-trading-system) - "Deep Thinking Trading System" 教程实现；初学者友好的 Multi-agent 示例设计。
@@ -156,7 +156,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 
 > 这里也值得看：[agent-next/polymarket-paper-trader](#mcps-polymarket-paper-trader) 放在 MCPs，因为它是纸面交易模拟器；但它本来就是为 AI Agent 准备的。
 
-> 也可以看：[YichengYang-Ethan/oracle3](#agents-oracle3) 放在 Multi-agent 系统里，但它的多场地 prediction-market arbitrage 对这个小类也很相关。
+> 也可以看：[YichengYang-Ethan/oracle3-prediction-market-agent](#agents-oracle3) 放在 Multi-agent 系统里，但它的多场地 prediction-market arbitrage 对这个小类也很相关。
 
 <a id="agents-benchmarks"></a>
 ### Benchmarks & evaluations
