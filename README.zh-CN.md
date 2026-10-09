@@ -200,6 +200,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP 横跨 A 股 / HK / 美股 / 基金 / 债券 / 宏观 / 稳定币 / 加密 / 财经新闻。
 - [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - 零依赖 TypeScript 股票数据 SDK + 内置 MCP server；覆盖 A / H / 美股和公募基金，支持 Browser / Node.js、CLI 与 Claude Code / Codex。
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - 土耳其 BIST + 美股 + 基金数据 MCP；覆盖非中美区域市场。
+- [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Tapetide 官方印度 NSE / BSE 股市 MCP；覆盖行情、财务、筛选器、FII/DII 资金流、期权链与公司公告。
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - 基于 akshare / aktools 的股票与加密数据 MCP；通过 AKShare 生态覆盖较广的市场数据。
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A 股专项数据 MCP；聚焦单市场高覆盖度，区别于多源聚合器。
 - [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) - Massive（前 Polygon.io 品牌）厂商官方 MCP；多资产行情数据覆盖。

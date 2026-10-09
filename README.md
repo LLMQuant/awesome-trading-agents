@@ -203,6 +203,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP spanning A-shares / HK / US / funds / bonds / macro / stablecoins / crypto / financial news.
 - [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - Zero-dependency TypeScript stock-data SDK with built-in MCP for A/H/US equities and funds via browser, Node.js, CLI, Claude Code, or Codex.
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - Turkish BIST + US-equity + fund data MCP serving regional markets outside China and the US.
+- [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Tapetide's official NSE/BSE India MCP; quotes, financials, screeners, FII/DII flows, option chains, filings.
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - Stock and crypto data MCP built on akshare / aktools; broad market-data coverage through the AKShare ecosystem.
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A-share-only data MCP; single-market deep coverage instead of multi-source aggregation.
 - [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) - Massive (formerly Polygon.io) first-party MCP; multi-asset market-data coverage.
