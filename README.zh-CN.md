@@ -173,6 +173,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM 因子研究与永续交易平台；86 个内置因子 + IC / ICIR / 衰减评估，可从论文挖掘并验证新因子，再用于回测或交易。
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve 风格的策略生成 Agent；用 LLM 编写和改进交易策略，再用于回测。
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent 原生的 A 股多因子研究引擎；8 个 MCP 工具覆盖 因子设计 → 回测 → 评分 → 反过拟合 → WQ BRAIN 提交。*(与 rnikitin/QuantGPT 同名但是两个不同项目。)*
+- [Blave-TW/blave-agent](https://github.com/Blave-TW/blave-agent) - 桌面工作台；接上自己的 Claude Code 或 Codex，由 Agent 写策略、回测（默认做蒙特卡洛置换检验）并实盘运行。
 
 > 注：[`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) 目前还没有公开可用的 terminal，所以暂不列入；等项目可用后可以在下一轮维护中加入。
 

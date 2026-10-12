@@ -176,6 +176,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM factor-research and perpetuals platform; mines and validates 86 factors with IC / ICIR, decay, backtests, and attribution.
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve-style agent that uses an LLM to write and improve trading strategies for backtesting.
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent-driven A-share factor research engine; 8 MCP tools span hypothesis → backtest → score → WQ BRAIN submission. *(Distinct from rnikitin/QuantGPT.)*
+- [Blave-TW/blave-agent](https://github.com/Blave-TW/blave-agent) - Desktop app where your Claude Code or Codex writes a strategy, backtests it with a permutation test, and runs it live.
 
 > Note: [`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) is not listed yet because its terminal has not launched. It can be added once the project is publicly usable.
 
