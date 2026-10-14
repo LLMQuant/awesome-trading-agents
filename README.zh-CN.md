@@ -203,6 +203,8 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - 基于 akshare / aktools 的股票与加密数据 MCP；通过 AKShare 生态覆盖较广的市场数据。
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A 股专项数据 MCP；聚焦单市场高覆盖度，区别于多源聚合器。
 - [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) - Massive（前 Polygon.io 品牌）厂商官方 MCP；多资产行情数据覆盖。
+<a id="mcps-roicai"></a>
+- [roicai/agents-plugin](https://github.com/roicai/agents-plugin) - roic.ai 厂商官方 MCP；全球 6.8 万+ 家公司的基本面（三表 + 盈利、信用与估值比率）+ 业绩电话会议文字记录。
 - [Alex2Yang97/yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp) - 全功能 Yahoo Finance MCP；历史价 + 基本面 + 期权链 + 新闻；Yahoo Finance 封装。
 - [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp) - SEC EDGAR MCP；读取 10-K / 10-Q / 8-K、内部交易和 filings；常用来读取美股公告数据。
 - [zwldarren/akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp) - AKShare-One 归一化器加持的 A 股数据 MCP；AKShare 生态里的另一种实现。

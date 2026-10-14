@@ -206,6 +206,8 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - Stock and crypto data MCP built on akshare / aktools; broad market-data coverage through the AKShare ecosystem.
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A-share-only data MCP; single-market deep coverage instead of multi-source aggregation.
 - [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) - Massive (formerly Polygon.io) first-party MCP; multi-asset market-data coverage.
+<a id="mcps-roicai"></a>
+- [roicai/agents-plugin](https://github.com/roicai/agents-plugin) - First-party roic.ai MCP; fundamentals (3 statements + 90+ ratios) and earnings call transcripts for 68k+ companies.
 - [Alex2Yang97/yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp) - Full-feature Yahoo Finance MCP; historical prices + fundamentals + option chains + news; Yahoo wrapper.
 - [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp) - SEC EDGAR MCP; 10-K / 10-Q / 8-K / insider trades / filings reader; common filings entry across awesome-lists.
 - [zwldarren/akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp) - A-share data MCP backed by the AKShare-One normalizer; an alternative implementation within the AKShare ecosystem.
