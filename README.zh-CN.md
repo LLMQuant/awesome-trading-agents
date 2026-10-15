@@ -291,6 +291,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX 双语 EN / CN Skills 仓库；包含贡献、评审和安全说明；可和 onchainos-skills 一起看。
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills；查询 token、钱包和行情数据，并在 Solana / BSC / Base 上执行链上交易。
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - Polymarket 官方 Agent Skill；覆盖认证、下单、行情、WebSocket、桥接和 gasless 交易流程。
+- [MetaMask/agent-skills](https://github.com/MetaMask/agent-skills) - MetaMask 官方 Agent Wallet Skills；自托管钱包，支持 swap、跨链桥、Hyperliquid 永续和 Polymarket 下单。
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
