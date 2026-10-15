@@ -244,7 +244,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 <a id="mcps-tradingview"></a>
 ### TradingView bridge
 
-- [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) - 30+ 工具 TradingView MCP；6 回测策略 + Reddit 情绪 + 新闻 + 多交易所；许多工具无需 API key。
+- [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) - 39 个工具的交易 MCP 服务器；筛选器 + 多周期分析 + 9 种回测策略（含 walk-forward）+ 新闻与情绪（Marketaux）+ 多交易所；大部分工具无需 API key。
 
 <a id="mcps-prediction-market"></a>
 ### Prediction markets
