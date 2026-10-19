@@ -224,6 +224,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
+- [bybit-exchange/trading-mcp](https://github.com/bybit-exchange/trading-mcp) - Bybit official MCP for the V5 API: market data, spot and derivatives orders, positions, assets, WebSocket streams.
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - Representative MT5 MCP; lets LLMs trade through any MetaTrader 5 broker; MCP connector for a major retail-forex platform.
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - Alternative MT5 MCP for quotes, trading, and history; uses MCP resources as well as tools.
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - Representative IBKR MCP; exposes Interactive Brokers TWS / Gateway as MCP tools; aimed at professional-broker workflows.
@@ -310,6 +311,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [staskh/trading_skills](https://github.com/staskh/trading_skills) - Skill pack for option traders, covering market data, analysis, scanners, portfolio work, reports, IBKR integration, and MCP tools. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca), [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP).)*
 - [koreal6803/finlab-ai](https://github.com/koreal6803/finlab-ai) - Taiwan-equity CLI Skill for strategy discovery, backtesting, and feature engineering with FinLab data and ready-made strategy examples.
 - [second-state/fintool](https://github.com/second-state/fintool) - Rust CLI suite for agentic trading and market intelligence; exchange-specific tools for Hyperliquid / Binance / Coinbase / OKX / Polymarket plus quotes, news, SEC filings, and backtests.
+- [trading212-labs/agent-skills](https://github.com/trading212-labs/agent-skills) - Trading 212 official Agent Skill for its Public API: portfolio, history, market/limit/stop orders; demo or live.
 
 > Also useful here: [krakenfx/kraken-cli](#mcps-kraken-cli) includes SKILL.md packages for crypto, xStocks, forex, and derivatives. The full entry is under MCPs because Kraken CLI is mainly an exchange trading tool.
 
