@@ -221,6 +221,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - 韩国投资证券 KIS 官方 SDK；包含 Trading MCP、strategy builder 和 backtester。
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
+- [bybit-exchange/trading-mcp](https://github.com/bybit-exchange/trading-mcp) - Bybit 官方 MCP；覆盖 V5 API 的行情、现货与衍生品下单、持仓、资产和 WebSocket 推送。
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - MT5 MCP；让 LLM 通过任意 MetaTrader 5 经纪商交易；面向主流零售外汇平台的 MCP 连接器。
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - 另一个 MT5 MCP；提供行情、交易和历史数据，并同时使用 MCP resources 与 tools。
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - IBKR MCP；把 Interactive Brokers TWS / Gateway 暴露为 MCP 工具；面向专业经纪商场景。
@@ -307,6 +308,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [staskh/trading_skills](https://github.com/staskh/trading_skills) - 面向期权交易者的 Skill pack；覆盖行情、分析、扫描器、组合、报告、IBKR 集成和 MCP tools。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca), [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP).)*
 - [koreal6803/finlab-ai](https://github.com/koreal6803/finlab-ai) - 台股 CLI Skill；基于 FinLab 数据做策略发现、回测和特征工程，并带有现成策略示例。
 - [second-state/fintool](https://github.com/second-state/fintool) - Rust agentic trading CLI 套件；按交易所拆分 Hyperliquid / Binance / Coinbase / OKX / Polymarket 工具，并提供行情、新闻、SEC filings 和回测能力。
+- [trading212-labs/agent-skills](https://github.com/trading212-labs/agent-skills) - Trading 212 官方 Agent Skill，封装其 Public API：持仓、历史、市价/限价/止损单；支持模拟和实盘。
 
 > 这里也值得看：[krakenfx/kraken-cli](#mcps-kraken-cli) 附带加密、xStocks、外汇和衍生品相关的 SKILL.md packages。完整介绍放在 MCPs，因为它主要是交易所交易工具。
 
