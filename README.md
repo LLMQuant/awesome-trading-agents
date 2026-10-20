@@ -241,6 +241,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) - TradingAgents refactored as MCP tools for multi-agent equity research.
 - [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) - Stock-analysis tool combining classic technical analysis, AI prediction, and MCP access.
 - [wbsu2003/stock-scanner-mcp](https://github.com/wbsu2003/stock-scanner-mcp) - Stock scanner MCP for prices, scoring, technical reports, and AI summaries.
+- [7evyr/trench-report-mcp](https://github.com/7evyr/trench-report-mcp) - Solana wallet trade-review MCP: realized PnL from on-chain swaps (FIFO), win rate, hold times and grades for entries, exits, patience, sizing and bag control.
 
 > Also relevant: [dragon1086/prism-insight](#agents-prism-insight) is listed under Agents; this section mentions it because it has built-in MCP support for research.
 
@@ -294,6 +295,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - First-party Polymarket Agent Skill for auth, orders, market data, WebSockets, bridging, and gasless flows.
+- [7evyr/trench-report-mcp](https://github.com/7evyr/trench-report-mcp) - Claude Code plugin with a grade-solana-wallet Skill that reviews a Solana wallet's memecoin trading habits and realized PnL.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
