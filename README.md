@@ -224,6 +224,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
+- [Clear Street MCP](https://docs.clearstreet.com/guides/mcp) - Clear Street's official MCP for trading US equities and options, plus account and market data and a read-only endpoint.
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - Representative MT5 MCP; lets LLMs trade through any MetaTrader 5 broker; MCP connector for a major retail-forex platform.
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - Alternative MT5 MCP for quotes, trading, and history; uses MCP resources as well as tools.
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - Representative IBKR MCP; exposes Interactive Brokers TWS / Gateway as MCP tools; aimed at professional-broker workflows.
@@ -278,6 +279,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - Large Skill pack for US-equity investors, covering market analysis, breadth, regimes, screening methods, options, Alpaca portfolio management, and research workflows. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - Skill pack for multiple asset classes, covering valuation, earnings review, option payoffs, ETF checks, liquidity, social research, and geopolitical-risk analysis.
+- [clear-street/clearstreet-skills](https://github.com/clear-street/clearstreet-skills) - Clear Street's official Skills for fundamentals, earnings calendars, borrow checks, screening, and Omni research.
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - Value-investing research framework for Claude Code / Codex; combines four investor playbooks with multi-agent analysis.
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
