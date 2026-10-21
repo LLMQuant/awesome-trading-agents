@@ -221,6 +221,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - 韩国投资证券 KIS 官方 SDK；包含 Trading MCP、strategy builder 和 backtester。
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
+- [Clear Street MCP](https://docs.clearstreet.com/guides/mcp) - Clear Street 官方的 MCP，用于美股和期权交易，账户和市场数据，以及只读权限 API。
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - MT5 MCP；让 LLM 通过任意 MetaTrader 5 经纪商交易；面向主流零售外汇平台的 MCP 连接器。
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - 另一个 MT5 MCP；提供行情、交易和历史数据，并同时使用 MCP resources 与 tools。
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - IBKR MCP；把 Interactive Brokers TWS / Gateway 暴露为 MCP 工具；面向专业经纪商场景。
@@ -275,6 +276,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - 面向美股投资者的大型 Skill pack；覆盖市场分析、市场宽度、市场状态、选股方法、期权、Alpaca 组合管理和研究工作流。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - 覆盖多类资产的 Skill pack；包括估值、earnings review、期权 payoff、ETF 检查、流动性、社媒研究和地缘风险分析。
+- [clear-street/clearstreet-skills](https://github.com/clear-street/clearstreet-skills) - Clear Street 官方提供的 Skills，用于基本面分析、财报日历、借券检查、选股以及 Omni 研究。
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - 面向 Claude Code / Codex 的价值投资研究框架；把四位投资大师方法论和 Multi-agent 分析结合起来。
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - 给 Claude Code 用的金融行业技能包；84 个小技能，帮它处理投资管理、合规检查、投顾日常、交易运营和持仓报告。
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code 研究 Skill；用基本面、技术面、期权流、内部交易和行业背景生成买 / 卖 / 持有报告。
