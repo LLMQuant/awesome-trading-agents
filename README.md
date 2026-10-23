@@ -294,6 +294,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - First-party Polymarket Agent Skill for auth, orders, market data, WebSockets, bridging, and gasless flows.
+- [doomsday-network/doomsday](https://github.com/doomsday-network/doomsday) - Agent-native Proof-of-Escrow Skill (`SKILL.md`) and MCP server (`mcp_server/server.py`) for sub-agent task bounties, HTTP 402 pay-per-call data/tool micropayments, and Base Mainnet `wDOOM` / Uniswap V3 settlement.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
