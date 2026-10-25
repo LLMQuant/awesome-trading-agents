@@ -294,6 +294,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - First-party Polymarket Agent Skill for auth, orders, market data, WebSockets, bridging, and gasless flows.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
