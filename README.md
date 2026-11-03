@@ -229,6 +229,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - Representative IBKR MCP; exposes Interactive Brokers TWS / Gateway as MCP tools; aimed at professional-broker workflows.
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - Alternative IBKR MCP in TS / JS; complements rcontesti's Python build.
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - Independent QuantConnect MCP focused on strategy research and workflow automation.
+- [trend0xai/trend0x-mcp](https://github.com/trend0xai/trend0x-mcp) - Trend0x's hosted MCP; multi-exchange crypto + Alpaca stock data, backtests, paper runs, confirm-gated orders.
 
 > Also useful for Skills readers: [krakenfx/kraken-cli](#mcps-kraken-cli) includes 50 bundled SKILL.md packages. The main entry is here because it is primarily an exchange trading tool.
 
