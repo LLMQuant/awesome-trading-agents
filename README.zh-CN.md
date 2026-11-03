@@ -226,6 +226,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - IBKR MCP；把 Interactive Brokers TWS / Gateway 暴露为 MCP 工具；面向专业经纪商场景。
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - 替代 IBKR MCP；TS / JS 实现，与 rcontesti Python 版互补。
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - 独立 QuantConnect MCP；重点是策略研究和工作流自动化。
+- [trend0xai/trend0x-mcp](https://github.com/trend0xai/trend0x-mcp) - Trend0x 官方托管 MCP；多交易所加密 + Alpaca 美股行情、回测、纸面运行，实盘下单需显式确认。
 
 > 如果你在看 Skills，也可以看 [krakenfx/kraken-cli](#mcps-kraken-cli)：它附带 50 个 SKILL.md packages。完整介绍放在这里，因为它主要是交易所交易工具。
 
