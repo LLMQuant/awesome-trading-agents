@@ -332,6 +332,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 
 - [Tauric Research GitHub Org](https://github.com/TauricResearch) - Tauric Research，2024-2026 持续。TradingAgents 框架的官方组织；公开 README / 文档 / 配套技术报告（arXiv 2412.20138 / 2509.11420）；适合学习 Multi-agent 交易系统怎么搭。 [link](https://github.com/TauricResearch)
 - [AI4Finance Foundation GitHub Org](https://github.com/AI4Finance-Foundation) - AI4Finance Foundation，2022-2026 持续。FinRobot / FinGPT / FinRL 系列的官方组织；ProjectShare、教程 notebooks 和论文配套代码；适合学习学术取向的 finance AI Agents。 [link](https://github.com/AI4Finance-Foundation)
+- [TradingAgents vs TradingAgents-CN vs Vibe-Trading](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading) - 对本清单已收录的三个 LLM Multi-agent 交易项目做免费并排对比（维护状态、市场覆盖、本地化）。 [link](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading)
 
 > 备注：v0.1 的 Learn 部分有意保持精简。后续更新可以继续补充真正有帮助的会议、课程、podcast 和长文。
 
