@@ -335,7 +335,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 
 - [Tauric Research GitHub Org](https://github.com/TauricResearch) - Tauric Research, ongoing 2024–2026. Official org behind the TradingAgents framework; public README / docs / companion technical reports (arXiv 2412.20138 / 2509.11420); a good place to learn how multi-agent trading systems are built. [link](https://github.com/TauricResearch)
 - [AI4Finance Foundation GitHub Org](https://github.com/AI4Finance-Foundation) - AI4Finance Foundation, ongoing 2022–2026. Official org behind the FinRobot / FinGPT / FinRL line; ProjectShare / tutorial notebooks / paper companion code; a good place to learn academic finance-AI agents. [link](https://github.com/AI4Finance-Foundation)
-- [TradingAgents vs TradingAgents-CN vs Vibe-Trading](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading) - Free side-by-side comparison of three open-source LLM multi-agent trading frameworks already listed above (maintenance, markets, localization). [link](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading)
+- [TradingAgents vs TradingAgents-CN vs Vibe-Trading](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading) - Free side-by-side comparison of three LLM multi-agent trading projects already listed above (maintenance, markets, localization). [link](https://aiquantnav.com/en/compare/tradingagents-vs-tradingagents-cn-vs-vibe-trading)
 
 > Note: the v0.1 Learn section is intentionally short. Future updates can add talks, courses, podcasts, and conference sessions as they become useful to readers.
 
