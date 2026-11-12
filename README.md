@@ -126,6 +126,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) - LunarCrush social-sentiment + Google Gemini crypto-trading agent; built with Next.js 15, Inngest, and Supabase.
 - [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) - Open-source AI trader across 1000+ markets, including Polymarket, Kalshi, Binance, Hyperliquid, Solana, and several EVM chains.
 - [hkirat/ai-trading-agent](https://github.com/hkirat/ai-trading-agent) - "Trade using LLMs"; minimal TypeScript demo from Harkirat Singh; common on-ramp for TS learners.
+- [qrak/LLM_trader](https://github.com/qrak/LLM_trader) - Chart-reading single-agent paper trader that recalls its own closed trades and publishes every prompt and decision.
 
 <a id="agents-research-copilots"></a>
 ### Research / equity-research copilots
