@@ -73,6 +73,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) - TradingAgents 的中文与 A 股本地化加强分支；接入 Tushare / AkShare 数据源 + 中文报告 + A 股监管语境。 *(← fork of TauricResearch/TradingAgents.)*
 - [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) - A 股专项重写；15 个 Agent + 可视化界面 + OpenClaw / Claude Code 集成 + Docker 一键部署。 *(← fork of TauricResearch/TradingAgents.)*
 - [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) - A 股 Multi-agent 分析师团队；龙虎榜跟踪 + 板块轮动告警 + miniqmt 量化执行钩子。 *(← inspired by TradingAgents.)*
+- [alex2loop/openalpha](https://github.com/alex2loop/openalpha) - 自托管 AI 投资助手，覆盖美股、越南股票、ETF、黄金与加密货币；多空委员会在每条建议前辩论，每个数字标注来源，前瞻战绩记录评估历史判断，未经你批准绝不下单。
 <a id="agents-ai-trader"></a>
 - [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) - "Agent-Native Trading Platform"；任意 AI Agent（OpenClaw / nanobot / Claude Code / Codex / Cursor）通过 SKILL.md 注册并经 AI4trade.ai 实盘交易；多资产 + 复制交易 + 跨平台同步。
 - [ValueCell-ai/valuecell](https://github.com/ValueCell-ai/valuecell) - 社区金融工作台；包含研究、策略和新闻 Agent；连接 Binance / OKX / Hyperliquid，并提供 macOS / Windows 桌面版。
