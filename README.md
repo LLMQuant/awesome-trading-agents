@@ -169,6 +169,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - Finance-agent benchmark / task suite from vals-ai.
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - Multi-agent fund-investment benchmark; LLM analysts evaluate stocks in a unified trading arena with leaderboard.
+- [jackson-cmd/risk-aware-trading-agents](https://github.com/jackson-cmd/risk-aware-trading-agents) - Backtest benchmark for LLM trading agents: news replayed by the minute, blind runs, cutoff-split leaderboard.
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents

@@ -166,6 +166,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - vals-ai 出品的金融 Agent benchmark / task 套件。
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - 多 Agent 基金投资评测；LLM 分析师在统一交易竞技场内产生信号并通过排行榜对比。
+- [jackson-cmd/risk-aware-trading-agents](https://github.com/jackson-cmd/risk-aware-trading-agents) - 面向 LLM 交易 Agent 的回测 benchmark；新闻按发布时间逐分钟回放，盲测与实名对照，按训练截止日拆分的排行榜。
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
