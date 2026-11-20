@@ -352,6 +352,7 @@ We welcome community contributions: new entries, removal of dead links, and disc
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - Traditional AI-in-finance list for deep learning, reinforcement learning, and time-series work.
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - Classical quant-library list; useful, but not the focus here.
 - [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) - Systematic-trading list for the broader non-agent trading tools.
+- [TradingAIHub](https://tradingaihub.com) - Free directory of verified AI tools, MCP servers and agent skills for finance and trading, with security verification.
 
 <a id="maintained-by"></a>
 ## Maintained by

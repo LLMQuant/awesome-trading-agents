@@ -349,6 +349,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - 传统 AI 金融清单，覆盖深度学习、强化学习和时间序列方向。
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 经典量化库清单；很有用，但不是本清单重点。
 - [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) - 系统化交易清单，覆盖更广的非 Agent 交易工具。
+- [TradingAIHub](https://tradingaihub.com) - 免费的金融与交易 AI 工具、MCP 服务器和 Agent Skills 目录，并标注每项工具的安全验证状态。
 
 <a id="maintained-by"></a>
 ## Maintained by
