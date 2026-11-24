@@ -210,6 +210,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - 极简 yfinance MCP；获取 Yahoo Finance 数据的轻量选择。
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - 文件 / 财报会议 / 财务 / 股票数据 / 私募交易 / 网络研究；覆盖私募市场交易与 VC 数据。
 - [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - 自部署金融数据中转站；把 SEC / FRED / Yahoo / FINRA / CFTC / CBOE 数据同步到 PostgreSQL，再通过 MCP 给 Agent 查询。
+- [KonstantinRogozhkin/awesome-spy2money](https://github.com/KonstantinRogozhkin/awesome-spy2money) - Spy2Money 官方托管只读 MCP（OAuth）：美股期权流、暗池成交、做市商 GEX 水平、IV 期限结构与 BTC/ETH 期权；服务闭源，免费账户为延迟数据。
 
 <a id="mcps-brokerage"></a>
 ### Brokerage / exchange trading
