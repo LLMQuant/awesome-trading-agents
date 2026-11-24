@@ -238,6 +238,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) - TradingAgents 重构为 MCP 工具的 Multi-agent 股票研究框架。
 - [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) - 股票分析工具；结合经典技术分析、AI 预测和 MCP 访问。
 - [wbsu2003/stock-scanner-mcp](https://github.com/wbsu2003/stock-scanner-mcp) - 股票扫描 MCP；提供价格、评分、技术报告和 AI 摘要。
+- [ZhuLinsen/alphasift](https://github.com/ZhuLinsen/alphasift) - 多市场定量选股与无状态形态 Walk-Forward 样本外回放框架；内置零依赖 STDIO MCP 服务器（11 工具 / 3 资源），公开记录纯规则 vs AI 重排 T+N 纸面基准对照。
 
 > 也相关：[dragon1086/prism-insight](#agents-prism-insight) 放在 Agents；这里提到它，是因为它内置 MCP 支持，适合研究工具场景。
 
