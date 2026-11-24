@@ -209,6 +209,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) - FMP MCP，提供 250+ 工具，覆盖基本面、市场洞察和 ETF。
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - 极简 yfinance MCP；获取 Yahoo Finance 数据的轻量选择。
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - 文件 / 财报会议 / 财务 / 股票数据 / 私募交易 / 网络研究；覆盖私募市场交易与 VC 数据。
+- [tradytics/options-flow-mcp-starter](https://github.com/tradytics/options-flow-mcp-starter) - Tradytics 官方 MCP 入门套件与托管服务；覆盖美股期权流、暗池大单、做市商 Gamma、股票永续合约与预测市场。
 - [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - 自部署金融数据中转站；把 SEC / FRED / Yahoo / FINRA / CFTC / CBOE 数据同步到 PostgreSQL，再通过 MCP 给 Agent 查询。
 
 <a id="mcps-brokerage"></a>
@@ -279,6 +280,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - 给 Claude Code 用的金融行业技能包；84 个小技能，帮它处理投资管理、合规检查、投顾日常、交易运营和持仓报告。
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code 研究 Skill；用基本面、技术面、期权流、内部交易和行业背景生成买 / 卖 / 持有报告。
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native 投资工作流团队；覆盖研究、组合和交易导向分析。
+- [tradytics/skills](https://github.com/tradytics/skills) - Tradytics 官方 Agent Skill，支持 Claude Code、Codex 与 Cursor，覆盖期权流、暗池、基本面与 SEC 公告。
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite；覆盖新闻、股票、情绪、预测、信号跟踪、逻辑可视化、报告和搜索。
 

@@ -212,6 +212,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) - FMP MCP with 250+ tools for fundamentals, market intelligence, and ETFs.
 - [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp) - Minimal yfinance MCP; a lightweight Yahoo Finance data option.
 - [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) - MCP for filings, earnings calls, financials, stock data, private-market deals, and web research.
+- [tradytics/options-flow-mcp-starter](https://github.com/tradytics/options-flow-mcp-starter) - Tradytics first-party MCP starter and hosted server for options flow, dark pools, dealer gamma, perps, and odds.
 - [daniel3303/Equibles](https://github.com/daniel3303/Equibles) - Self-hosted finance data hub; syncs public SEC/FRED/Yahoo/FINRA/CFTC/CBOE data to PostgreSQL and serves it via MCP.
 
 <a id="mcps-brokerage"></a>
@@ -282,6 +283,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - Claude Code financial-services Skill pack; 84 skills across investment management, compliance, advisory workflows, trading operations, and portfolio reporting.
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code research Skill for buy / sell / hold reports using fundamentals, technicals, option flow, insider activity, and sector context.
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native investment workflow team for research, portfolio work, and trading-oriented analysis.
+- [tradytics/skills](https://github.com/tradytics/skills) - Tradytics official Agent Skill for Claude Code, Codex, and Cursor covering options flow, dark pools, and filings.
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite for news, stocks, sentiment, prediction, signal tracking, logic visualization, reporting, and search.
 
