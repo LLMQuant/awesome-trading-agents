@@ -221,6 +221,8 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca's official MCP for market data plus paper or live trading in equities, ETFs, options, and crypto. *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-tradingagents).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken's official AI-native CLI with an embedded MCP; covers crypto, xStocks, forex, derivatives, paper trading, and bundled SKILL.md packs.
+<a id="mcps-coinbase-agents"></a>
+- [coinbase/agents](https://github.com/coinbase/agents) - Coinbase's official MCP for AI agents, hosted with OAuth or run locally with `npx -y @coinbase/coinbase-cli mcp`. Trade crypto (plus US derivatives and equities where available) in a Coinbase account, with server-side per-trade and 24-hour spend limits. [Setup guide](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/coinbase-mcp), [announcement](https://www.coinbase.com/blog/coinbase-for-agents).
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
