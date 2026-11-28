@@ -79,7 +79,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) - AI4Finance 基金会的开源 finance AI Agent 平台；适合看学术取向的股票研究、市场预测和报告生成。
 <a id="agents-vibe-trading"></a>
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - HKUDS 实验室的个人 Multi-agent 金融工作台；内置 Skills、MCP tools 和 swarm presets，覆盖 A 股 / HK / US / 加密 / 期货 / 外汇。
-- [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - 开源 AI 量化交易平台；把 Multi-agent 研究、回测、实盘和多交易所路由放在一套流程里。
+- [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) - 开源 AI 量化交易平台；把 Multi-agent 研究、回测、实盘和多交易所路由放在一套流程里。
 - [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) - 可回测的 AI trading Agent / team runtime；内置研究、Bull / Bear 辩论、风控和记忆，同一策略循环可用于回测、模拟盘与实盘。
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "几分钟启动一支自治对冲基金"；把 Swarms 框架用于市场分析、风控和执行；CLI / SDK 优先。
 - [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic 加密 hedge-fund 栈；多交易员 Agent + Risk Guard + 回测 + paper trading + OpenClaw packaging。
