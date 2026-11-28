@@ -251,7 +251,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-tradingview"></a>
 ### TradingView bridge
 
-- [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) - 30+-tool TradingView MCP; 6 backtest strategies + Reddit sentiment + news + multi-exchange; many tools work without an API key.
+- [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) - 39-tool trading MCP; screeners, multi-timeframe TA, 9 walk-forward backtest strategies, and Marketaux news/sentiment.
 
 <a id="mcps-prediction-market"></a>
 ### Prediction markets
