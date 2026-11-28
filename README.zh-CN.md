@@ -292,7 +292,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 <a id="skills-crypto"></a>
 ### Crypto / DeFi / on-chain
 
-- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance 官方 Skills Hub；18 个 Skill，覆盖加密研究、交易、钱包和 DeFi。
+- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance 官方 Skills Hub；21 个 Skill，覆盖加密研究、交易、钱包和 DeFi。
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX 官方 Skills，集成 OnchainOS API；覆盖钱包、代币发现、报价、DEX swap 和交易广播。
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX 双语 EN / CN Skills 仓库；包含贡献、评审和安全说明；可和 onchainos-skills 一起看。
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills；查询 token、钱包和行情数据，并在 Solana / BSC / Base 上执行链上交易。

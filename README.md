@@ -295,7 +295,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 <a id="skills-crypto"></a>
 ### Crypto / DeFi / on-chain
 
-- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance's official Skills hub with 18 packages for crypto research, trading, wallets, and DeFi.
+- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance's official Skills hub with 21 packages for crypto research, trading, wallets, and DeFi.
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX official Skills for OnchainOS, covering wallets, token discovery, quotes, DEX swaps, and transaction broadcasting.
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX bilingual Skills repo with contribution, review, and security guidance; companion to onchainos-skills.
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills for querying tokens, wallets, and market data, and executing on-chain trades across Solana, BSC, and Base.
