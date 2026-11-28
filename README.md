@@ -245,6 +245,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) - TradingAgents refactored as MCP tools for multi-agent equity research.
 - [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) - Stock-analysis tool combining classic technical analysis, AI prediction, and MCP access.
 - [wbsu2003/stock-scanner-mcp](https://github.com/wbsu2003/stock-scanner-mcp) - Stock scanner MCP for prices, scoring, technical reports, and AI summaries.
+- [ZhuLinsen/alphasift](https://github.com/ZhuLinsen/alphasift) - 7-market stock screener, Walk-Forward pattern replay, and 14-tool STDIO MCP with live rules-vs-AI T+N benchmarks.
 
 > Also relevant: [dragon1086/prism-insight](#agents-prism-insight) is listed under Agents; this section mentions it because it has built-in MCP support for research.
 
