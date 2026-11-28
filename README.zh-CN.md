@@ -122,7 +122,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [danilobatson/ai-trading-agent-gemini](https://github.com/danilobatson/ai-trading-agent-gemini) - LunarCrush 社交情绪 + Google Gemini 加密交易 Agent；使用 Next.js 15、Inngest 和 Supabase。
 - [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) - 覆盖 1000+ 市场的开源 AI 交易 Agent，包括 Polymarket、Kalshi、Binance、Hyperliquid、Solana 和多个 EVM 链。
 - [hkirat/ai-trading-agent](https://github.com/hkirat/ai-trading-agent) - "Trade using LLMs"；Harkirat Singh 的极简 TypeScript 演示；适合 TS 学习者快速上手。
-- [qrak/LLM_trader](https://github.com/qrak/LLM_trader) - 读取 K 线图表的单 Agent 纸面交易系统：检索自己已平仓交易的记忆，并公开每轮提示词与决策。
+- [qrak/LLM_trader](https://github.com/qrak/LLM_trader) - 单 Agent 纸面交易系统；将行情指标、新闻与已平仓交易记忆交给文本模型决策，并公开每轮提示词与交易记录。
 
 <a id="agents-research-copilots"></a>
 ### Research / equity-research copilots
