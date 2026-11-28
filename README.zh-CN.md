@@ -220,6 +220,8 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken 官方 AI-native CLI，内置 MCP；覆盖加密、xStocks、外汇、衍生品、纸面交易，并附带 SKILL.md packages。
+<a id="mcps-coinbase-agents"></a>
+- [coinbase/agents](https://github.com/coinbase/agents) - Coinbase 官方 MCP 与 Agent Skills；覆盖加密货币、衍生品与股票交易，并内置服务端单笔及 24 小时限额控制。
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - 韩国投资证券 KIS 官方 SDK；包含 Trading MCP、strategy builder 和 backtester。
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
@@ -230,7 +232,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - 替代 IBKR MCP；TS / JS 实现，与 rcontesti Python 版互补。
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - 独立 QuantConnect MCP；重点是策略研究和工作流自动化。
 
-> 如果你在看 Skills，也可以看 [krakenfx/kraken-cli](#mcps-kraken-cli)：它附带 50 个 SKILL.md packages。完整介绍放在这里，因为它主要是交易所交易工具。
+> 如果你在看 Skills，也可以看 [krakenfx/kraken-cli](#mcps-kraken-cli)（附带 50 个 SKILL.md）和 [coinbase/agents](#mcps-coinbase-agents)，它们都内置 Agent Skills；完整介绍放在这里，因为它们主要是交易所交易工具。
 
 <a id="mcps-research-tools"></a>
 ### Research tools / analysis
