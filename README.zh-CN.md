@@ -63,13 +63,13 @@ Awesome Trading Agents 收集开源项目：这些项目用 LLM 做市场研究�
   <img src="assets/section-agents.png" alt="Agents section header" width="760" />
 </p>
 
-Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团队、单 Agent 交易者、投研助手、实盘实验、评测和策略生成工具。TradingAgents 的几个 fork 与原项目放在同一层级，方便连续浏览。
+Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团队、单 Agent 交易者、投研助手、实盘实验、评测和策略生成工具。
 
 <a id="agents-multi-agent"></a>
 ### Multi-agent trading systems
 
-<a id="agents-tradingagents"></a>
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent 交易框架；分析师、看多 / 看空研究员、交易员、风控和组合经理一起讨论后给出决策；基于 LangGraph。
+> 下列 TradingAgents 分支源自早期的 [LangGraph 框架](https://github.com/TauricResearch/TradingAgents/tree/v0.7.1)。当前版本的投研终端见 [TradingAgents](#agents-tradingagents)。
+
 - [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) - TradingAgents 的中文与 A 股本地化加强分支；接入 Tushare / AkShare 数据源 + 中文报告 + A 股监管语境。 *(← fork of TauricResearch/TradingAgents.)*
 - [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) - A 股专项重写；15 个 Agent + 可视化界面 + OpenClaw / Claude Code 集成 + Docker 一键部署。 *(← fork of TauricResearch/TradingAgents.)*
 - [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) - A 股 Multi-agent 分析师团队；龙虎榜跟踪 + 板块轮动告警 + miniqmt 量化执行钩子。 *(← inspired by TradingAgents.)*
@@ -79,7 +79,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) - AI4Finance 基金会的开源 finance AI Agent 平台；适合看学术取向的股票研究、市场预测和报告生成。
 <a id="agents-vibe-trading"></a>
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - HKUDS 实验室的个人 Multi-agent 金融工作台；内置 Skills、MCP tools 和 swarm presets，覆盖 A 股 / HK / US / 加密 / 期货 / 外汇。
-- [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - 开源 AI 量化交易平台；把 Multi-agent 研究、回测、实盘和多交易所路由放在一套流程里。
+- [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) - 开源 AI 量化交易平台；把 Multi-agent 研究、回测、实盘和多交易所路由放在一套流程里。
 - [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) - 可回测的 AI trading Agent / team runtime；内置研究、Bull / Bear 辩论、风控和记忆，同一策略循环可用于回测、模拟盘与实盘。
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "几分钟启动一支自治对冲基金"；把 Swarms 框架用于市场分析、风控和执行；CLI / SDK 优先。
 - [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic 加密 hedge-fund 栈；多交易员 Agent + Risk Guard + 回测 + paper trading + OpenClaw packaging。
@@ -92,7 +92,6 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [dragon1086/prism-insight](https://github.com/dragon1086/prism-insight) - 聚焦韩国市场的 Multi-agent 股票分析与交易系统；内置 MCP 集成。
 - [Tomortec/CryptoTradingAgents](https://github.com/Tomortec/CryptoTradingAgents) - Multi-agent LLM 加密交易框架；把 TradingAgents 的思路改到加密交易上。
 - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - Multi-agent 加密交易系统；Binance 实时执行 + 自适应策略切换；结合 TradingAgents 和 nof1.ai 两类项目的做法。
-- [huygiatrng/AlpacaTradingAgent](https://github.com/huygiatrng/AlpacaTradingAgent) - TradingAgents 风格的 Multi-agent 框架，连接 Alpaca 做美股交易。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"；面向散户设计的 Multi-agent 项目。
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent 股票研究系统；LLM Agent 负责收集证据，另一个数学层把信号合成 BUY / NEUTRAL / SELL。
 <a id="agents-oracle3"></a>
@@ -128,6 +127,10 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 <a id="agents-research-copilots"></a>
 ### Research / equity-research copilots
 
+<a id="agents-tradingagents"></a>
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - 多 Agent 投研终端，内置股票、宏观、量化和风险四类研究 Agent 与 16 个 Skills。可以先审阅研究计划，再导出带来源的报告。
+<a id="agents-trading-r1"></a>
+- [TauricResearch/Trading-R1](https://github.com/TauricResearch/Trading-R1) - 支持定时报表的投研终端。可在后台按计划生成报告，并投递到 Telegram、邮件或本地目录。
 - [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - 每日 LLM 驱动选股仪表盘；微信 / 飞书 / Telegram / Discord / Slack / 邮件多渠道推送；11 内置策略 + Agent 问股策略对话；GitHub Actions 即部署。
 - [AmadeusGB/alpha-arena](https://github.com/AmadeusGB/alpha-arena) - 实盘 AI Agent 竞赛和研究平台；用真实市场条件迭代 Agent。
 - [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) - "盯盘侠"；AI 驱动的股票监控助手；多账户持仓 + Agent 分析 + PWA 移动端。
@@ -135,7 +138,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - "顺风耳"；HKUSTDial 开源的金融深度研究与信号跟踪框架；多模态新闻 + 价格联合追踪。
 - [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) - 财报电话会议 / SEC 文件 / 新闻问答 Agent；清晰的 RAG-over-disclosures 实现。
 
-> 也相关：[ginlix-ai/LangAlpha](#agents-langalpha) 和 [oficcejo/aiagents-stock](#agents-tradingagents) 都有投研助手界面，但它们的主项目更像完整的 Multi-agent 系统，所以放在前面。
+> 也相关：[ginlix-ai/LangAlpha](#agents-langalpha) 和 [oficcejo/aiagents-stock](#agents-multi-agent) 都有投研助手界面，但它们的主项目更像完整的 Multi-agent 系统，所以放在前面。
 
 <a id="agents-real-money"></a>
 ### Real-money / competition experiments
@@ -167,6 +170,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) - vals-ai 出品的金融 Agent benchmark / task 套件。
 <a id="agents-deepfund"></a>
 - [HKUSTDial/DeepFund](https://github.com/HKUSTDial/DeepFund) - 多 Agent 基金投资评测；LLM 分析师在统一交易竞技场内产生信号并通过排行榜对比。
+- [Yijia-Xiao/FinanceHarness](https://github.com/Yijia-Xiao/FinanceHarness) - 自治金融研究框架；用带引用、按时间点隔离的研究流程和 FinanceGym 评分评测金融 Agent。
 
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
@@ -174,8 +178,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM 因子研究与永续交易平台；86 个内置因子 + IC / ICIR / 衰减评估，可从论文挖掘并验证新因子，再用于回测或交易。
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve 风格的策略生成 Agent；用 LLM 编写和改进交易策略，再用于回测。
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent 原生的 A 股多因子研究引擎；8 个 MCP 工具覆盖 因子设计 → 回测 → 评分 → 反过拟合 → WQ BRAIN 提交。*(与 rnikitin/QuantGPT 同名但是两个不同项目。)*
-
-> 注：[`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) 目前还没有公开可用的 terminal，所以暂不列入；等项目可用后可以在下一轮维护中加入。
+- [Blave-TW/blave-agent](https://github.com/Blave-TW/blave-agent) - 桌面工作台；接上自己的 Claude Code 或 Codex，由 Agent 写策略、回测（默认做蒙特卡洛置换检验）并实盘运行。
 
 <a id="mcps"></a>
 ## MCPs
@@ -216,12 +219,13 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 ### Brokerage / exchange trading
 
 <a id="mcps-alpaca"></a>
-- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-tradingagents).)*
+- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken 官方 AI-native CLI，内置 MCP；覆盖加密、xStocks、外汇、衍生品、纸面交易，并附带 SKILL.md packages。
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - 韩国投资证券 KIS 官方 SDK；包含 Trading MCP、strategy builder 和 backtester。
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX 官方 MCP；覆盖现货、永续、期货、期权和网格机器人。
+- [bybit-exchange/trading-mcp](https://github.com/bybit-exchange/trading-mcp) - Bybit 官方 MCP；覆盖 V5 API 的行情、现货与衍生品下单、持仓、资产和 WebSocket 推送。
 - [ariadng/metatrader-mcp-server](https://github.com/ariadng/metatrader-mcp-server) - MT5 MCP；让 LLM 通过任意 MetaTrader 5 经纪商交易；面向主流零售外汇平台的 MCP 连接器。
 - [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) - 另一个 MT5 MCP；提供行情、交易和历史数据，并同时使用 MCP resources 与 tools。
 - [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP) - IBKR MCP；把 Interactive Brokers TWS / Gateway 暴露为 MCP 工具；面向专业经纪商场景。
@@ -282,16 +286,19 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native 投资工作流团队；覆盖研究、组合和交易导向分析。
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite；覆盖新闻、股票、情绪、预测、信号跟踪、逻辑可视化、报告和搜索。
+- [komako-workshop/digital-oracle](https://github.com/komako-workshop/digital-oracle) - 市场与宏观研究 Skill；汇总 13 个公开金融数据源，生成概率判断、信号对比和场景分析。
 
 > 这里也值得看：[HKUDS/Vibe-Trading](#agents-vibe-trading) 和 [ginlix-ai/LangAlpha](#agents-langalpha) 都内置 Skills。完整介绍放在 Agents，因为它们是完整的 Agent 工作台，不只是 Skill pack。
 
 <a id="skills-crypto"></a>
 ### Crypto / DeFi / on-chain
 
+- [binance/binance-skills-hub](https://github.com/binance/binance-skills-hub) - Binance 官方 Skills Hub；21 个 Skill，覆盖加密研究、交易、钱包和 DeFi。
 - [okx/onchainos-skills](https://github.com/okx/onchainos-skills) - OKX 官方 Skills，集成 OnchainOS API；覆盖钱包、代币发现、报价、DEX swap 和交易广播。
 - [okx/agent-skills](https://github.com/okx/agent-skills) - OKX 双语 EN / CN Skills 仓库；包含贡献、评审和安全说明；可和 onchainos-skills 一起看。
 - [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) - GMGN Agent Skills；查询 token、钱包和行情数据，并在 Solana / BSC / Base 上执行链上交易。
 - [Polymarket/agent-skills](https://github.com/Polymarket/agent-skills) - Polymarket 官方 Agent Skill；覆盖认证、下单、行情、WebSocket、桥接和 gasless 交易流程。
+- [MetaMask/agent-skills](https://github.com/MetaMask/agent-skills) - MetaMask 官方 Agent Wallet Skills；自托管钱包，支持 swap、跨链桥、Hyperliquid 永续和 Polymarket 下单。
 
 <a id="skills-strategy-coding"></a>
 ### Strategy coding & backtesting
@@ -308,6 +315,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [staskh/trading_skills](https://github.com/staskh/trading_skills) - 面向期权交易者的 Skill pack；覆盖行情、分析、扫描器、组合、报告、IBKR 集成和 MCP tools。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca), [rcontesti/IB_MCP](https://github.com/rcontesti/IB_MCP).)*
 - [koreal6803/finlab-ai](https://github.com/koreal6803/finlab-ai) - 台股 CLI Skill；基于 FinLab 数据做策略发现、回测和特征工程，并带有现成策略示例。
 - [second-state/fintool](https://github.com/second-state/fintool) - Rust agentic trading CLI 套件；按交易所拆分 Hyperliquid / Binance / Coinbase / OKX / Polymarket 工具，并提供行情、新闻、SEC filings 和回测能力。
+- [trading212-labs/agent-skills](https://github.com/trading212-labs/agent-skills) - Trading 212 官方 Agent Skill，封装其 Public API：持仓、历史、市价/限价/止损单；支持模拟和实盘。
 
 > 这里也值得看：[krakenfx/kraken-cli](#mcps-kraken-cli) 附带加密、xStocks、外汇和衍生品相关的 SKILL.md packages。完整介绍放在 MCPs，因为它主要是交易所交易工具。
 
@@ -319,7 +327,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 
 > 收录范围：直接介绍或解释本清单中某个 Agent / MCP / Skill 的论文。更完整的金融 LLM 论文、模型和数据集清单，请看 [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs)。
 
-- [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research 团队，arXiv 2412.20138（2024）。引入 Multi-agent 辩论决策框架；分析师团队 + 多 / 空研究员辩论 + 交易员 + 风控 + 组合经理。 [paper](https://arxiv.org/abs/2412.20138) · [code](#agents-tradingagents)
+- [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research 团队，arXiv 2412.20138（2024）。引入 Multi-agent 辩论决策框架；分析师团队 + 多 / 空研究员辩论 + 交易员 + 风控 + 组合经理。 [paper](https://arxiv.org/abs/2412.20138) · [code (v0.7.1)](https://github.com/TauricResearch/TradingAgents/tree/v0.7.1)
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One，2025；附 40 页评估论文。ChatGPT 在严格预定义规则下管理一个真实美股微盘组合 6 个月的 forward-only 审计。 [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation，arXiv 2405.14767（2024）。较早的学术取向 finance AI Agent 平台；多模态分析师 Agent + FinGPT 模型线。 [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUSTDial，arXiv 2505.11065（2025）。多 Agent 基金投资评测框架；LLM 分析师 + 交易竞技场排行榜。 [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
