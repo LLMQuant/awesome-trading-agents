@@ -92,8 +92,6 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [dragon1086/prism-insight](https://github.com/dragon1086/prism-insight) - 聚焦韩国市场的 Multi-agent 股票分析与交易系统；内置 MCP 集成。
 - [Tomortec/CryptoTradingAgents](https://github.com/Tomortec/CryptoTradingAgents) - Multi-agent LLM 加密交易框架；把 TradingAgents 的思路改到加密交易上。
 - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - Multi-agent 加密交易系统；Binance 实时执行 + 自适应策略切换；结合 TradingAgents 和 nof1.ai 两类项目的做法。
-<a id="agents-alpaca-trading-agent"></a>
-- [huygiatrng/AlpacaTradingAgent](https://github.com/huygiatrng/AlpacaTradingAgent) - TradingAgents 风格的 Multi-agent 框架，连接 Alpaca 做美股交易。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"；面向散户设计的 Multi-agent 项目。
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent 股票研究系统；LLM Agent 负责收集证据，另一个数学层把信号合成 BUY / NEUTRAL / SELL。
 <a id="agents-oracle3"></a>
@@ -218,7 +216,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 ### Brokerage / exchange trading
 
 <a id="mcps-alpaca"></a>
-- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-alpaca-trading-agent).)*
+- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca 官方 MCP；提供行情，并支持股票、ETF、期权和加密的纸面或实盘交易。 *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken 官方 AI-native CLI，内置 MCP；覆盖加密、xStocks、外汇、衍生品、纸面交易，并附带 SKILL.md packages。
 <a id="mcps-koreainvestment"></a>
