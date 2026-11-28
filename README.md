@@ -313,6 +313,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - Skill for vectorbt backtesting with setup, backtest, optimization, quick stats, strategy comparison, and reusable strategy templates.
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC trading-knowledge Skill for Claude Code, Codex, OpenClaw, and Hermes; includes curated knowledge cards, real-time market data, indicators, and chart generation.
 - [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) - Agent Skills and tool schemas for building, backtesting, and deploying Hyperliquid trading strategies.
+- [0xArchiveIO/0xarchive-quant](https://github.com/0xArchiveIO/0xarchive-quant) - Deterministic Rust backtest engine and Agent Skill for Hyperliquid/Lighter with trial ledgers and sealed holdout.
 
 <a id="skills-brokerage"></a>
 ### Brokerage execution & portfolio

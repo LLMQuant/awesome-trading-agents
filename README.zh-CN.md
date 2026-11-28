@@ -310,6 +310,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - 面向 vectorbt 的回测 Skill；提供 setup、backtest、optimization、quick stats、strategy comparison 和可复用策略模板。
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC 交易知识 Skill，面向 Claude Code、Codex、OpenClaw 和 Hermes；包含知识卡片、实时行情、技术指标和图表生成。
 - [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) - Agent Skills + tool schemas；用于构建、回测和部署 Hyperliquid 交易策略。
+- [0xArchiveIO/0xarchive-quant](https://github.com/0xArchiveIO/0xarchive-quant) - 面向 Hyperliquid / Lighter 的 Rust 确定性回测引擎与 Agent Skill；带试错账本、样本外封存检验与防过拟合流程。
 
 <a id="skills-brokerage"></a>
 ### Brokerage execution & portfolio
