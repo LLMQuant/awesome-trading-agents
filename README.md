@@ -66,13 +66,13 @@ Awesome Trading Agents collects open-source projects where LLMs help research ma
   <img src="assets/section-agents.png" alt="Agents section header" width="760" />
 </p>
 
-Agents are projects where an LLM is part of the actual research or trading decision. This includes analyst teams, single-agent traders, research copilots, live trading experiments, benchmarks, and tools that write or improve strategies. The TradingAgents forks are listed at the same level as the original project so the section stays easy to scan.
+Agents are projects where an LLM is part of the actual research or trading decision. This includes analyst teams, single-agent traders, research copilots, live trading experiments, benchmarks, and tools that write or improve strategies.
 
 <a id="agents-multi-agent"></a>
 ### Multi-agent trading systems
 
-<a id="agents-tradingagents"></a>
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent trading framework where analysts, bull/bear researchers, a trader, risk control, and a portfolio manager debate before making a decision; built with LangGraph.
+> The TradingAgents forks below build on the original [LangGraph framework](https://github.com/TauricResearch/TradingAgents/tree/v0.7.1). See [TradingAgents](#agents-tradingagents) for the current research terminal.
+
 - [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) - Chinese-localised TradingAgents fork tuned for A-shares; Tushare / AkShare data sources + Chinese-language reports + A-share regulatory context. *(← fork of TauricResearch/TradingAgents.)*
 - [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) - A-share rewrite; 15 agents + visual UI + OpenClaw / Claude Code integration + one-click Docker deploy. *(← fork of TauricResearch/TradingAgents.)*
 - [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) - A-share multi-agent analyst team with dragon-and-tiger list tracking, sector-rotation alerts, and a miniqmt execution hook. *(← inspired by TradingAgents.)*
@@ -95,6 +95,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [dragon1086/prism-insight](https://github.com/dragon1086/prism-insight) - Korean-market-focused multi-agent stock-analysis and trading system; built-in MCP integration.
 - [Tomortec/CryptoTradingAgents](https://github.com/Tomortec/CryptoTradingAgents) - Multi-agent LLM crypto-trading framework; applies the TradingAgents idea to crypto trading.
 - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - Multi-agent crypto-trading system; Binance real-time execution + adaptive strategy switching; combines ideas from TradingAgents and nof1.ai.
+<a id="agents-alpaca-trading-agent"></a>
 - [huygiatrng/AlpacaTradingAgent](https://github.com/huygiatrng/AlpacaTradingAgent) - TradingAgents-style multi-agent framework connected to Alpaca for US-equity trading. *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"; multi-agent project designed for retail users.
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent equity-research system that lets LLM agents gather evidence, then uses a separate math layer to produce BUY / NEUTRAL / SELL.
@@ -130,6 +131,10 @@ Agents are projects where an LLM is part of the actual research or trading decis
 <a id="agents-research-copilots"></a>
 ### Research / equity-research copilots
 
+<a id="agents-tradingagents"></a>
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent financial research terminal with four specialist agents and 16 built-in skills. Review the research plan before it runs and export reports with cited sources.
+<a id="agents-trading-r1"></a>
+- [TauricResearch/Trading-R1](https://github.com/TauricResearch/Trading-R1) - Financial research terminal with a background service for scheduled reports. Send reports to Telegram, email, or a local folder.
 - [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - Daily LLM-driven stock-screening dashboard; multi-channel push (WeChat / Feishu / Telegram / Discord / Slack / email); 11 built-in strategies + agent stock-Q&A; deploy-by-GitHub-Actions.
 - [AmadeusGB/alpha-arena](https://github.com/AmadeusGB/alpha-arena) - Live AI-agent competition and research platform; uses real-market conditions to improve agents.
 - [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) - PanWatch / "盯盘侠"; AI-driven stock-monitoring assistant; multi-account positions + agent analysis + PWA mobile.
@@ -137,7 +142,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) - DeepEar / "顺风耳"; HKUSTDial's open-source deep-research and signal-tracking framework; joint multimodal news + price tracking.
 - [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) - Earnings-call / SEC-filing / news Q&A agent; clean RAG-over-disclosures implementation.
 
-> Also relevant: [ginlix-ai/LangAlpha](#agents-langalpha) and [oficcejo/aiagents-stock](#agents-tradingagents) both include research-copilot screens, but their main entries stay with the multi-agent systems they belong to.
+> Also relevant: [ginlix-ai/LangAlpha](#agents-langalpha) and [oficcejo/aiagents-stock](#agents-multi-agent) both include research-copilot screens, but their main entries stay with the multi-agent systems they belong to.
 
 <a id="agents-real-money"></a>
 ### Real-money / competition experiments
@@ -176,8 +181,6 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM factor-research and perpetuals platform; mines and validates 86 factors with IC / ICIR, decay, backtests, and attribution.
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve-style agent that uses an LLM to write and improve trading strategies for backtesting.
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent-driven A-share factor research engine; 8 MCP tools span hypothesis → backtest → score → WQ BRAIN submission. *(Distinct from rnikitin/QuantGPT.)*
-
-> Note: [`TauricResearch/Trading-R1`](https://github.com/TauricResearch/Trading-R1) is not listed yet because its terminal has not launched. It can be added once the project is publicly usable.
 
 <a id="mcps"></a>
 ## MCPs
@@ -218,7 +221,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 ### Brokerage / exchange trading
 
 <a id="mcps-alpaca"></a>
-- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca's official MCP for market data plus paper or live trading in equities, ETFs, options, and crypto. *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-tradingagents).)*
+- [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) - Alpaca's official MCP for market data plus paper or live trading in equities, ETFs, options, and crypto. *(← used by: [tradermonty/claude-trading-skills](#skills-claude-trading-skills), [staskh/trading_skills](#skills-trading-skills), [huygiatrng/AlpacaTradingAgent](#agents-alpaca-trading-agent).)*
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken's official AI-native CLI with an embedded MCP; covers crypto, xStocks, forex, derivatives, paper trading, and bundled SKILL.md packs.
 <a id="mcps-koreainvestment"></a>
@@ -321,7 +324,7 @@ Skills are reusable instructions and workflows for Claude Code or other agent sy
 
 > Included here: papers that directly introduce or explain a project listed here. For a broader finance-LLM paper, model, and dataset list, see [`DataArcTech/Awesome-FinLLMs`](https://github.com/DataArcTech/Awesome-FinLLMs).
 
-- [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research team, arXiv 2412.20138 (2024). Introduces the multi-agent debate decision framework: analyst team + bull/bear researcher debate + trader + risk control + portfolio manager. [paper](https://arxiv.org/abs/2412.20138) · [code](#agents-tradingagents)
+- [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) - Tauric Research team, arXiv 2412.20138 (2024). Introduces the multi-agent debate decision framework: analyst team + bull/bear researcher debate + trader + risk control + portfolio manager. [paper](https://arxiv.org/abs/2412.20138) · [code (v0.7.1)](https://github.com/TauricResearch/TradingAgents/tree/v0.7.1)
 - [LLM-Trading-Lab: Six-Month Real-Money ChatGPT Micro-Cap Experiment](https://github.com/LuckyOne7777/LLM-Trading-Lab) - Lucky One, 2025; ships with a 40-page evaluation paper. Forward-only audit of ChatGPT managing a real US-equity micro-cap portfolio for six months under strict pre-defined rules. [paper / repo](https://github.com/LuckyOne7777/LLM-Trading-Lab) · [code](#agents-llm-trading-lab)
 - [FinRobot: Open-Source AI Agent Platform for Financial Analysis](https://arxiv.org/abs/2405.14767) - AI4Finance Foundation, arXiv 2405.14767 (2024). Early academic finance-AI agent platform; multimodal analyst agents tied to the FinGPT model line. [paper](https://arxiv.org/abs/2405.14767) · [code](https://github.com/AI4Finance-Foundation/FinRobot)
 - [Time Travel is Cheating: Going Live with DeepFund for Real-Time Fund Investment Benchmarking](https://arxiv.org/abs/2505.11065) - HKUSTDial, arXiv 2505.11065 (2025). Multi-agent fund-investment benchmark with LLM analysts and a trading arena leaderboard. [paper](https://arxiv.org/abs/2505.11065) · [code](#agents-deepfund)
