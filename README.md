@@ -225,7 +225,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 <a id="mcps-kraken-cli"></a>
 - [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) - Kraken's official AI-native CLI with an embedded MCP; covers crypto, xStocks, forex, derivatives, paper trading, and bundled SKILL.md packs.
 <a id="mcps-coinbase-agents"></a>
-- [coinbase/agents](https://github.com/coinbase/agents) - Coinbase's official MCP for AI agents, hosted with OAuth or run locally with `npx -y @coinbase/coinbase-cli mcp`. Trade crypto (plus US derivatives and equities where available) in a Coinbase account, with server-side per-trade and 24-hour spend limits. [Setup guide](https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/coinbase-mcp), [announcement](https://www.coinbase.com/blog/coinbase-for-agents).
+- [coinbase/agents](https://github.com/coinbase/agents) - Coinbase's official MCP and Agent Skills for crypto, derivatives, and equities with server-side spend limits.
 <a id="mcps-koreainvestment"></a>
 - [koreainvestment/open-trading-api](https://github.com/koreainvestment/open-trading-api) - Korea Investment & Securities official SDK; includes a Trading MCP, strategy builder, and backtester.
 - [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) - OKX official MCP for spot, perpetuals, futures, options, and grid bots.
@@ -236,7 +236,7 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [code-rabi/interactive-brokers-mcp](https://github.com/code-rabi/interactive-brokers-mcp) - Alternative IBKR MCP in TS / JS; complements rcontesti's Python build.
 - [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) - Independent QuantConnect MCP focused on strategy research and workflow automation.
 
-> Also useful for Skills readers: [krakenfx/kraken-cli](#mcps-kraken-cli) includes 50 bundled SKILL.md packages. The main entry is here because it is primarily an exchange trading tool.
+> Also useful for Skills readers: [krakenfx/kraken-cli](#mcps-kraken-cli) (50 bundled SKILL.md packages) and [coinbase/agents](#mcps-coinbase-agents) both include Agent Skills. Their main entries stay here because they are primarily exchange trading tools.
 
 <a id="mcps-research-tools"></a>
 ### Research tools / analysis
