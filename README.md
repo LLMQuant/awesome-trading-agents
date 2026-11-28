@@ -352,6 +352,7 @@ We welcome community contributions: new entries, removal of dead links, and disc
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - Traditional AI-in-finance list for deep learning, reinforcement learning, and time-series work.
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - Classical quant-library list; useful, but not the focus here.
 - [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) - Systematic-trading list for the broader non-agent trading tools.
+- [KonstantinRogozhkin/awesome-quant-competitions](https://github.com/KonstantinRogozhkin/awesome-quant-competitions) - Quant trading competitions, LLM forecasting arenas (FutureEval, Metaculus, Numerai, CrunchDAO) & 85 interview problems.
 
 <a id="maintained-by"></a>
 ## Maintained by

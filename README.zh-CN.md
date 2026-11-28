@@ -349,6 +349,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - 传统 AI 金融清单，覆盖深度学习、强化学习和时间序列方向。
 - [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 经典量化库清单；很有用，但不是本清单重点。
 - [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) - 系统化交易清单，覆盖更广的非 Agent 交易工具。
+- [KonstantinRogozhkin/awesome-quant-competitions](https://github.com/KonstantinRogozhkin/awesome-quant-competitions) - 量化交易竞赛、LLM 与预测竞技场（FutureEval、Metaculus、Numerai、CrunchDAO）及 85 道量化面试题与题解清单。
 
 <a id="maintained-by"></a>
 ## Maintained by
