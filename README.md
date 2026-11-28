@@ -97,8 +97,6 @@ Agents are projects where an LLM is part of the actual research or trading decis
 - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - Multi-agent crypto-trading system; Binance real-time execution + adaptive strategy switching; combines ideas from TradingAgents and nof1.ai.
 - [Yaolinwang/AITD](https://github.com/Yaolinwang/AITD) - "AI Trading Agent for Everyone"; multi-agent project designed for retail users.
 - [flash131307/multi-agent-investment](https://github.com/flash131307/multi-agent-investment) - Multi-agent equity-research system that lets LLM agents gather evidence, then uses a separate math layer to produce BUY / NEUTRAL / SELL.
-<a id="agents-oracle3"></a>
-- [YichengYang-Ethan/oracle3](https://github.com/YichengYang-Ethan/oracle3) - Multi-venue (Kalshi / Polymarket / Solana) prediction-market autonomous agent; Wang-Transform pricing + Kelly criterion + cross-venue arbitrage.
 - [Ganador1/FenixAI_tradingBot](https://github.com/Ganador1/FenixAI_tradingBot) - LangGraph + Ollama + CrewAI autonomous trading agent; local-LLM first.
 - [ryan-yuuu/crypto-trading-arena](https://github.com/ryan-yuuu/crypto-trading-arena) - Open-source crypto-trading arena; Claude / Claude Code agents compete head-to-head on live crypto data.
 - [FareedKhan-dev/multi-agent-trading-system](https://github.com/FareedKhan-dev/multi-agent-trading-system) - "Deep Thinking Trading System" tutorial implementation; beginner-friendly multi-agent example design.
@@ -163,7 +161,7 @@ Agents are projects where an LLM is part of the actual research or trading decis
 
 > Also useful here: [agent-next/polymarket-paper-trader](#mcps-polymarket-paper-trader) is listed under MCPs because it is a paper-trading simulator, but it is built for AI agents.
 
-> Also see: [YichengYang-Ethan/oracle3](#agents-oracle3) is listed with multi-agent systems above, and it is especially relevant here for multi-venue prediction-market arbitrage.
+> Also see: [YichengYang-Ethan/oracle3-prediction-market-agent](#mcps-oracle3) is listed under MCPs because it is now primarily a prediction-market MCP server, and it is relevant here for multi-venue arbitrage and paper trading.
 
 <a id="agents-benchmarks"></a>
 ### Benchmarks & evaluations
@@ -262,6 +260,8 @@ MCPs are servers that let an agent call external tools through the Model Context
 - [caiovicentino/polymarket-mcp-server](https://github.com/caiovicentino/polymarket-mcp-server) - 45-tool Polymarket MCP; real-time monitoring and explicit order-safety guards.
 <a id="mcps-polymarket-paper-trader"></a>
 - [agent-next/polymarket-paper-trader](https://github.com/agent-next/polymarket-paper-trader) - Polymarket paper-trading simulator; MCP server + real-time order book + strategy backtesting; built for AI agents.
+<a id="mcps-oracle3"></a>
+- [YichengYang-Ethan/oracle3-prediction-market-agent](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent) - Prediction-market MCP server: LLM agents get Kalshi/Polymarket books, fee-aware arbitrage checks, and paper trading.
 
 <a id="mcps-backtesting"></a>
 ### Strategy / backtesting platforms
